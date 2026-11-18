@@ -1,1 +1,77 @@
-cGFja2FnZSBjb20uc2VlYWxsLmFnZW50LmNhbWVyYQoKaW1wb3J0IGNvbS5zZWVhbGwuYWdlbnQuY29yZS5DYW1lcmFDb25uZWN0aW9uCmltcG9ydCBjb20uc2VlYWxsLmFnZW50LmNvcmUuQ2FtZXJhRGV2aWNlCmltcG9ydCBjb20uc2VlYWxsLmFnZW50LmNvcmUuQ2FtZXJhUmVnaXN0cnkKaW1wb3J0IGNvbS5zZWVhbGwuYWdlbnQuY29yZS5UcmFuc3BvcnQKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LkZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lk11dGFibGVTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmFzU3RhdGVGbG93CmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5Db25jdXJyZW50SGFzaE1hcAoKLyoqIFJlZ2lzdHJ5IHNpbXBsZXMgZW0gbWVtw7NyaWEsIHVzYWRvIHBlbG8gTTIgYW50ZXMgZG8gcGVyc2lzdGVuY2UgZG8gTTcuICovCmNsYXNzIEluTWVtb3J5Q2FtZXJhUmVnaXN0cnkgOiBDYW1lcmFSZWdpc3RyeSB7CgogICAgcHJpdmF0ZSB2YWwgc3RvcmUgPSBDb25jdXJyZW50SGFzaE1hcDxTdHJpbmcsIENhbWVyYURldmljZT4oKQogICAgcHJpdmF0ZSB2YWwgY3JlZGVudGlhbHMgPSBDb25jdXJyZW50SGFzaE1hcDxTdHJpbmcsIFBhaXI8U3RyaW5nPywgU3RyaW5nPz4+KCkKICAgIHByaXZhdGUgdmFsIF9kZXZpY2VzRmxvdyA9IE11dGFibGVTdGF0ZUZsb3c8TGlzdDxDYW1lcmFEZXZpY2U+PihlbXB0eUxpc3QoKSkKICAgIG92ZXJyaWRlIHZhbCBkZXZpY2VzOiBGbG93PExpc3Q8Q2FtZXJhRGV2aWNlPj4gPSBfZGV2aWNlc0Zsb3cuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgZnVuIHB1Ymxpc2goKSB7CiAgICAgICAgX2RldmljZXNGbG93LnZhbHVlID0gc3RvcmUudmFsdWVzLnNvcnRlZEJ5IHsgaXQubmFtZSB9CiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gZGlzY292ZXIodGltZW91dE1zOiBMb25nKTogUmVzdWx0PExpc3Q8Q2FtZXJhRGV2aWNlPj4gPSBydW5DYXRjaGluZyB7CiAgICAgICAgT252aWZEaXNjb3ZlcnkodGltZW91dE1zLnRvSW50KCkpLmRpc2NvdmVyKCkubWFwIHsgZm91bmQgLT4KICAgICAgICAgICAgQ2FtZXJhRGV2aWNlKAogICAgICAgICAgICAgICAgaWQgPSBmb3VuZC54YWRkci5oYXNoQ29kZSgpLnRvU3RyaW5nKCksCiAgICAgICAgICAgICAgICBuYW1lID0gZm91bmQubW9kZWwgPzogZm91bmQuaGFyZHdhcmUgPzogZm91bmQuYWRkcmVzcywKICAgICAgICAgICAgICAgIG1vZGVsID0gZm91bmQubW9kZWwsCiAgICAgICAgICAgICAgICB1aWQgPSBmb3VuZC5oYXJkd2FyZSwKICAgICAgICAgICAgICAgIGhvc3QgPSBmb3VuZC5hZGRyZXNzLAogICAgICAgICAgICAgICAgdHJhbnNwb3J0ID0gVHJhbnNwb3J0Lk9OVklGCiAgICAgICAgICAgICkKICAgICAgICB9LmFsc28geyBsaXN0IC0+CiAgICAgICAgICAgIGxpc3QuZm9yRWFjaCB7IHN0b3JlW2l0LmlkXSA9IGl0IH0KICAgICAgICAgICAgcHVibGlzaCgpCiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGxpc3QoKTogTGlzdDxDYW1lcmFEZXZpY2U+ID0gc3RvcmUudmFsdWVzLnRvTGlzdCgpCgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gc2F2ZShkZXZpY2U6IENhbWVyYURldmljZSk6IFJlc3VsdDxVbml0PiA9IHJ1bkNhdGNoaW5nIHsKICAgICAgICBzdG9yZVtkZXZpY2UuaWRdID0gZGV2aWNlCiAgICAgICAgcHVibGlzaCgpCiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gcmVtb3ZlKGRldmljZUlkOiBTdHJpbmcpOiBSZXN1bHQ8VW5pdD4gPSBydW5DYXRjaGluZyB7CiAgICAgICAgc3RvcmUucmVtb3ZlKGRldmljZUlkKQogICAgICAgIGNyZWRlbnRpYWxzLnJlbW92ZShkZXZpY2VJZCkKICAgICAgICBwdWJsaXNoKCkKICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBnZXQoZGV2aWNlSWQ6IFN0cmluZyk6IENhbWVyYURldmljZT8gPSBzdG9yZVtkZXZpY2VJZF0KCiAgICBmdW4gc2V0Q3JlZGVudGlhbHMoZGV2aWNlSWQ6IFN0cmluZywgdXNlcm5hbWU6IFN0cmluZz8sIHBhc3N3b3JkOiBTdHJpbmc/KSB7CiAgICAgICAgY3JlZGVudGlhbHNbZGV2aWNlSWRdID0gdXNlcm5hbWUgdG8gcGFzc3dvcmQKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gY29ubmVjdGlvbkZvcihkZXZpY2U6IENhbWVyYURldmljZSk6IENhbWVyYUNvbm5lY3Rpb24gewogICAgICAgIHZhbCAodXNlciwgcGFzcykgPSBjcmVkZW50aWFsc1tkZXZpY2UuaWRdID86IChudWxsIHRvIG51bGwpCiAgICAgICAgcmV0dXJuIHdoZW4gKGRldmljZS50cmFuc3BvcnQpIHsKICAgICAgICAgICAgVHJhbnNwb3J0Lk9OVklGIC0+IE9udmlmQ2FtZXJhQ29ubmVjdGlvbigKICAgICAgICAgICAgICAgIGRldmljZSA9IGRldmljZSwKICAgICAgICAgICAgICAgIHhhZGRyID0gZGV2aWNlLmhvc3Q/LmxldCB7ICJodHRwOi8vJGl0L29udmlmL2RldmljZV9zZXJ2aWNlIiB9ID86IGVycm9yKCJPTlZJRiBzZW0gaG9zdCIpLAogICAgICAgICAgICAgICAgdXNlcm5hbWUgPSB1c2VyLAogICAgICAgICAgICAgICAgcGFzc3dvcmQgPSBwYXNzCiAgICAgICAgICAgICkKICAgICAgICAgICAgVHJhbnNwb3J0LlJUU1AsIFRyYW5zcG9ydC5NQU5VQUxfUlRTUCAtPiBSdHNwQ2FtZXJhQ29ubmVjdGlvbigKICAgICAgICAgICAgICAgIGRldmljZSA9IGRldmljZSwKICAgICAgICAgICAgICAgIHVyaSA9IGRldmljZS5ob3N0ID86IGVycm9yKCJSVFNQIHNlbSBVUkkiKSwKICAgICAgICAgICAgICAgIHVzZXJuYW1lID0gdXNlciwKICAgICAgICAgICAgICAgIHBhc3N3b3JkID0gcGFzcwogICAgICAgICAgICApCiAgICAgICAgICAgIGVsc2UgLT4gdGhyb3cgVW5zdXBwb3J0ZWRPcGVyYXRpb25FeGNlcHRpb24oIlRyYW5zcG9ydGUgJHtkZXZpY2UudHJhbnNwb3J0fSBhaW5kYSBuw6NvIGltcGxlbWVudGFkbyIpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.seeall.agent.camera
+
+import com.seeall.agent.core.CameraConnection
+import com.seeall.agent.core.CameraDevice
+import com.seeall.agent.core.CameraRegistry
+import com.seeall.agent.core.Transport
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import java.util.concurrent.ConcurrentHashMap
+
+/** Registry simples em memória, usado pelo M2 antes do persistence do M7. */
+class InMemoryCameraRegistry : CameraRegistry {
+
+    private val store = ConcurrentHashMap<String, CameraDevice>()
+    private val credentials = ConcurrentHashMap<String, Pair<String?, String?>>()
+    private val _devicesFlow = MutableStateFlow<List<CameraDevice>>(emptyList())
+    override val devices: Flow<List<CameraDevice>> = _devicesFlow.asStateFlow()
+
+    private fun publish() {
+        _devicesFlow.value = store.values.sortedBy { it.name }
+    }
+
+    override suspend fun discover(timeoutMs: Long): Result<List<CameraDevice>> = runCatching {
+        OnvifDiscovery(timeoutMs.toInt()).discover().map { found ->
+            CameraDevice(
+                id = found.xaddr.hashCode().toString(),
+                name = found.model ?: found.hardware ?: found.address,
+                model = found.model,
+                uid = found.hardware,
+                host = found.address,
+                transport = Transport.ONVIF
+            )
+        }.also { list ->
+            list.forEach { store[it.id] = it }
+            publish()
+        }
+    }
+
+    override suspend fun list(): List<CameraDevice> = store.values.toList()
+
+    override suspend fun save(device: CameraDevice): Result<Unit> = runCatching {
+        store[device.id] = device
+        publish()
+    }
+
+    override suspend fun remove(deviceId: String): Result<Unit> = runCatching {
+        store.remove(deviceId)
+        credentials.remove(deviceId)
+        publish()
+    }
+
+    override suspend fun get(deviceId: String): CameraDevice? = store[deviceId]
+
+    fun setCredentials(deviceId: String, username: String?, password: String?) {
+        credentials[deviceId] = username to password
+    }
+
+    override fun connectionFor(device: CameraDevice): CameraConnection {
+        val (user, pass) = credentials[device.id] ?: (null to null)
+        return when (device.transport) {
+            Transport.ONVIF -> OnvifCameraConnection(
+                device = device,
+                xaddr = device.host?.let { "http://$it/onvif/device_service" } ?: error("ONVIF sem host"),
+                username = user,
+                password = pass
+            )
+            Transport.RTSP, Transport.MANUAL_RTSP -> RtspCameraConnection(
+                device = device,
+                uri = device.host ?: error("RTSP sem URI"),
+                username = user,
+                password = pass
+            )
+            else -> throw UnsupportedOperationException("Transporte ${device.transport} ainda não implementado")
+        }
+    }
+}
