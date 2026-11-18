@@ -1,1 +1,29 @@
-IyBzZWVBbGwgQWdlbnQg4oCUIE0xIGNvbnRyYXRvcwoKQ29udHJhdG9zIGRlIGRvbcOtbmlvIChLb3RsaW4pIHBhcmEgbyBhZ2VudGUgc2VlQWxsLiBFc3RhIMOpIGEgY2FtYWRhIGRlIGFic3RyYcOnw6NvIHF1ZSBkZXNhY29wbGEgcHJvdG9jb2xvcyBkZSBjw6JtZXJhLCBncmF2YcOnw6NvLCBJQSBlIHN0b3JhZ2UuCgojIyBFc3RydXR1cmEKCmBgYApjb3JlLwogIE1vZGVscy5rdCAgICAgICAgICAgIOKAlCBDYW1lcmFEZXZpY2UsIFN0cmVhbURlc2NyaXB0b3IsIGNvbmZpZ3VyYcOnw6NvCiAgQ2FtZXJhQ29ubmVjdGlvbi5rdCAg4oCUIGNvbm5lY3QvZGlzY29ubmVjdCwgc3RyZWFtcywgc25hcHNob3QKICBMaXZlU2Vzc2lvbi5rdCAgICAgICDigJQgZnJhbWVzIGUgZXZlbnRvcyBkZSB1bWEgc2Vzc8OjbwogIENhbWVyYVJlZ2lzdHJ5Lmt0ICAgIOKAlCBkZXNjb2JlcnRhIGUgY2FkYXN0cm8KICBSZWNvcmRpbmdQaXBlbGluZS5rdCDigJQgc2VnbWVudGHDp8OjbyArIGZpbGEgKyB1cGxvYWQKICBDbG91ZFRhcmdldC5rdCAgICAgICDigJQgYnVja2V0IGRvIGNsaWVudGUgKFMzLWNvbXBhdGlibGUpCiAgRGV0ZWN0aW9uRW5naW5lLmt0ICAg4oCUIGRldGVjw6fDo28gbG9jYWwgKyByZWdyYXMKICBFdmVudFN0b3JlLmt0ICAgICAgICDigJQgZXZlbnRvcyArIGJ1c2NhCiAgQWdlbnRDb250cm9sbGVyLmt0ICAg4oCUIG9ycXVlc3RyYcOnw6NvCmBgYAoKIyMgUHJpbmPDrXBpb3MKCi0gVHJhbnNwb3J0ZSDDqSB1bSBkZXRhbGhlOiBgT05WSUZgLCBgUlRTUGAsIGBQMlBfWE1fRVlFYCwgZXRjLiBpbXBsZW1lbnRhbSBhIG1lc21hIGludGVyZmFjZS4KLSBDbGllbnRlIMOpIGRvbm8gZG8gYENsb3VkVGFyZ2V0YCBlIGRhcyBjcmVkZW5jaWFpcy4KLSBFdmVudG9zIGUgdsOtZGVvIHPDo28gc2VwYXJhZG9zOiBiYWNrZW5kIG51bmNhIHJlY2ViZSB2w61kZW8uCi0gTmVuaHVtIGNvbnRyYXRvIGRlcGVuZGUgZGUgYmlibGlvdGVjYXMgcHJvcHJpZXTDoXJpYXMuCgojIyBQcsOzeGltbyBtw7NkdWxvCgpNMiDigJQgaW1wbGVtZW50YcOnw6NvIE9OVklGL1JUU1AuCg==
+# seeAll Agent — M1 contratos
+
+Contratos de domínio (Kotlin) para o agente seeAll. Esta é a camada de abstração que desacopla protocolos de câmera, gravação, IA e storage.
+
+## Estrutura
+
+```
+core/
+  Models.kt            — CameraDevice, StreamDescriptor, configuração
+  CameraConnection.kt  — connect/disconnect, streams, snapshot
+  LiveSession.kt       — frames e eventos de uma sessão
+  CameraRegistry.kt    — descoberta e cadastro
+  RecordingPipeline.kt — segmentação + fila + upload
+  CloudTarget.kt       — bucket do cliente (S3-compatible)
+  DetectionEngine.kt   — detecção local + regras
+  EventStore.kt        — eventos + busca
+  AgentController.kt   — orquestração
+```
+
+## Princípios
+
+- Transporte é um detalhe: `ONVIF`, `RTSP`, `P2P_XM_EYE`, etc. implementam a mesma interface.
+- Cliente é dono do `CloudTarget` e das credenciais.
+- Eventos e vídeo são separados: backend nunca recebe vídeo.
+- Nenhum contrato depende de bibliotecas proprietárias.
+
+## Próximo módulo
+
+M2 — implementação ONVIF/RTSP.
