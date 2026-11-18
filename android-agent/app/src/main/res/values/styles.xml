@@ -1,1 +1,8 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlcz4KICAgIDxzdHlsZSBuYW1lPSJUaGVtZS5TZWVBbGwiIHBhcmVudD0iVGhlbWUuQXBwQ29tcGF0LkxpZ2h0LkRhcmtBY3Rpb25CYXIiPgogICAgICAgIDxpdGVtIG5hbWU9ImNvbG9yUHJpbWFyeSI+IzBENDdBMTwvaXRlbT4KICAgICAgICA8aXRlbSBuYW1lPSJjb2xvclByaW1hcnlEYXJrIj4jMDAyMTcxPC9pdGVtPgogICAgICAgIDxpdGVtIG5hbWU9ImNvbG9yQWNjZW50Ij4jRkY2RjAwPC9pdGVtPgogICAgPC9zdHlsZT4KPC9yZXNvdXJjZXM+Cg==
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SeeAll" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#0D47A1</item>
+        <item name="colorPrimaryDark">#002171</item>
+        <item name="colorAccent">#FF6F00</item>
+    </style>
+</resources>
