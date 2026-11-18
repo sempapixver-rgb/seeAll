@@ -1,1 +1,34 @@
-cGFja2FnZSBjb20uc2VlYWxsLmFnZW50LmNvcmUKCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5GbG93CgovKiogT3JxdWVzdHJhZG9yIGRvIGFnZW50ZTogY29ubmVjdCAtPiByZWNvcmQgLT4gZGV0ZWN0IC0+IHVwbG9hZC4gKi8KaW50ZXJmYWNlIEFnZW50Q29udHJvbGxlciB7CiAgICB2YWwgc3RhdHVzOiBGbG93PEFnZW50U3RhdHVzPgoKICAgIHN1c3BlbmQgZnVuIHN0YXJ0KCk6IFJlc3VsdDxVbml0PgogICAgc3VzcGVuZCBmdW4gc3RvcCgpCgogICAgc3VzcGVuZCBmdW4gYWRkQ2FtZXJhKHJlcXVlc3Q6IEFkZENhbWVyYVJlcXVlc3QpOiBSZXN1bHQ8Q2FtZXJhRGV2aWNlPgogICAgc3VzcGVuZCBmdW4gc3RhcnRSZWNvcmRpbmcoY2FtZXJhSWQ6IFN0cmluZyk6IFJlc3VsdDxVbml0PgogICAgc3VzcGVuZCBmdW4gc3RvcFJlY29yZGluZyhjYW1lcmFJZDogU3RyaW5nKTogUmVzdWx0PFVuaXQ+CgogICAgc3VzcGVuZCBmdW4gdXBkYXRlQ29uZmlnKGNvbmZpZzogQWdlbnRDb25maWcpOiBSZXN1bHQ8VW5pdD4KICAgIHN1c3BlbmQgZnVuIGN1cnJlbnRDb25maWcoKTogQWdlbnRDb25maWcKfQoKZGF0YSBjbGFzcyBBZGRDYW1lcmFSZXF1ZXN0KAogICAgdmFsIG5hbWU6IFN0cmluZywKICAgIHZhbCB0cmFuc3BvcnQ6IFRyYW5zcG9ydCwKICAgIHZhbCBhZGRyZXNzOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCB1aWQ6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHVzZXJuYW1lOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBwYXNzd29yZDogU3RyaW5nPyA9IG51bGwKKQoKc2VhbGVkIGNsYXNzIEFnZW50U3RhdHVzIHsKICAgIG9iamVjdCBJZGxlIDogQWdlbnRTdGF0dXMoKQogICAgb2JqZWN0IFN0YXJ0aW5nIDogQWdlbnRTdGF0dXMoKQogICAgZGF0YSBjbGFzcyBSdW5uaW5nKHZhbCBhY3RpdmVDYW1lcmFzOiBJbnQsIHZhbCByZWNvcmRpbmc6IEludCkgOiBBZ2VudFN0YXR1cygpCiAgICBkYXRhIGNsYXNzIEVycm9yKHZhbCB0aHJvd2FibGU6IFRocm93YWJsZSkgOiBBZ2VudFN0YXR1cygpCn0K
+package com.seeall.agent.core
+
+import kotlinx.coroutines.flow.Flow
+
+/** Orquestrador do agente: connect -> record -> detect -> upload. */
+interface AgentController {
+    val status: Flow<AgentStatus>
+
+    suspend fun start(): Result<Unit>
+    suspend fun stop()
+
+    suspend fun addCamera(request: AddCameraRequest): Result<CameraDevice>
+    suspend fun startRecording(cameraId: String): Result<Unit>
+    suspend fun stopRecording(cameraId: String): Result<Unit>
+
+    suspend fun updateConfig(config: AgentConfig): Result<Unit>
+    suspend fun currentConfig(): AgentConfig
+}
+
+data class AddCameraRequest(
+    val name: String,
+    val transport: Transport,
+    val address: String? = null,
+    val uid: String? = null,
+    val username: String? = null,
+    val password: String? = null
+)
+
+sealed class AgentStatus {
+    object Idle : AgentStatus()
+    object Starting : AgentStatus()
+    data class Running(val activeCameras: Int, val recording: Int) : AgentStatus()
+    data class Error(val throwable: Throwable) : AgentStatus()
+}
