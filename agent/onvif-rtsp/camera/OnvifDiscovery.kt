@@ -1,1 +1,97 @@
-cGFja2FnZSBjb20uc2VlYWxsLmFnZW50LmNhbWVyYQoKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CmltcG9ydCBqYXZhLm5ldC5EYXRhZ3JhbVBhY2tldAppbXBvcnQgamF2YS5uZXQuRGF0YWdyYW1Tb2NrZXQKaW1wb3J0IGphdmEubmV0LkluZXRBZGRyZXNzCmltcG9ydCBqYXZhLnV0aWwuVVVJRAoKLyoqCiAqIFdTLURpc2NvdmVyeSBzb2JyZSBVRFAgbXVsdGljYXN0ICgyMzkuMjU1LjI1NS4yNTA6MzcwMikuCiAqIFJldG9ybmEgb3MgZW5kZXJlw6dvcyBYQWRkciBkZSBkaXNwb3NpdGl2b3MgT05WSUYgbmEgTEFOLgogKi8KY2xhc3MgT252aWZEaXNjb3ZlcnkoCiAgICBwcml2YXRlIHZhbCB0aW1lb3V0TXM6IEludCA9IDNfMDAwLAogICAgcHJpdmF0ZSB2YWwgcmVwZWF0czogSW50ID0gMgopIHsKICAgIHByaXZhdGUgdmFsIG11bHRpY2FzdEFkZHJlc3M6IEluZXRBZGRyZXNzID0gSW5ldEFkZHJlc3MuZ2V0QnlOYW1lKCIyMzkuMjU1LjI1NS4yNTAiKQogICAgcHJpdmF0ZSB2YWwgcG9ydCA9IDM3MDIKCiAgICBzdXNwZW5kIGZ1biBkaXNjb3ZlcigpOiBMaXN0PERpc2NvdmVyZWREZXZpY2U+ID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICB2YWwgcmVzdWx0cyA9IG11dGFibGVNYXBPZjxTdHJpbmcsIERpc2NvdmVyZWREZXZpY2U+KCkKICAgICAgICB2YWwgc29ja2V0ID0gRGF0YWdyYW1Tb2NrZXQobnVsbCkuYXBwbHkgewogICAgICAgICAgICByZXVzZUFkZHJlc3MgPSB0cnVlCiAgICAgICAgICAgIGJyb2FkY2FzdCA9IHRydWUKICAgICAgICB9CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIG1lc3NhZ2UgPSBwcm9iZU1lc3NhZ2UoKQogICAgICAgICAgICB2YWwgYnl0ZXMgPSBtZXNzYWdlLnRvQnl0ZUFycmF5KENoYXJzZXRzLlVURl84KQogICAgICAgICAgICB2YWwgcGFja2V0ID0gRGF0YWdyYW1QYWNrZXQoYnl0ZXMsIGJ5dGVzLnNpemUsIG11bHRpY2FzdEFkZHJlc3MsIHBvcnQpCiAgICAgICAgICAgIHZhbCBidWZmZXIgPSBCeXRlQXJyYXkoMTZfMzg0KQoKICAgICAgICAgICAgcmVwZWF0KHJlcGVhdHMpIHsKICAgICAgICAgICAgICAgIHNvY2tldC5zZW5kKHBhY2tldCkKICAgICAgICAgICAgICAgIHZhbCBkZWFkbGluZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpICsgdGltZW91dE1zLnRvTG9uZygpCiAgICAgICAgICAgICAgICB3aGlsZSAoU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkgPCBkZWFkbGluZSkgewogICAgICAgICAgICAgICAgICAgIHNvY2tldC5zb1RpbWVvdXQgPSBtYXhPZigyMDAsIChkZWFkbGluZSAtIFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpKS50b0ludCgpKQogICAgICAgICAgICAgICAgICAgIHZhbCByZXNwb25zZSA9IERhdGFncmFtUGFja2V0KGJ1ZmZlciwgYnVmZmVyLnNpemUpCiAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgc29ja2V0LnJlY2VpdmUocmVzcG9uc2UpCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCB4bWwgPSBTdHJpbmcocmVzcG9uc2UuZGF0YSwgcmVzcG9uc2Uub2Zmc2V0LCByZXNwb25zZS5sZW5ndGgsIENoYXJzZXRzLlVURl84KQogICAgICAgICAgICAgICAgICAgICAgICBwYXJzZVByb2JlTWF0Y2goeG1sLCByZXNwb25zZS5hZGRyZXNzLmhvc3RBZGRyZXNzKT8ubGV0IHsgZGV2aWNlIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXN1bHRzW2RldmljZS54YWRkcl0gPSBkZXZpY2UKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKF86IGphdmEubmV0LlNvY2tldFRpbWVvdXRFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICBzb2NrZXQuY2xvc2UoKQogICAgICAgIH0KICAgICAgICByZXN1bHRzLnZhbHVlcy50b0xpc3QoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHByb2JlTWVzc2FnZSgpOiBTdHJpbmcgPSBidWlsZFN0cmluZyB7CiAgICAgICAgYXBwZW5kKCIiIjw/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IlVURi04Ij8+IiIiKQogICAgICAgIGFwcGVuZCgiIiI8ZTpQcm9iZSB4bWxuczplPSJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA0L2Rpc2NvdmVyeSI+IiIiKQogICAgICAgIGFwcGVuZCgiIiI8ZTpUeXBlcz50ZHM6RGV2aWNlPC9lOlR5cGVzPiIiIikKICAgICAgICBhcHBlbmQoIiIiPGU6U2NvcGVzPm9udmlmOi8vd3d3Lm9udmlmLm9yZy90eXBlPC9lOlNjb3Blcz4iIiIpCiAgICAgICAgYXBwZW5kKCIiIjwvZTpQcm9iZT4iIiIpCiAgICAgICAgLy8gSGVhZGVyIGNvbSBNZXNzYWdlSUQgZSBUbyDDqSBvcGNpb25hbCBlbSBXUy1EaXNjb3ZlcnksIG1hcyBhbGd1bnMgZGV2aWNlcyBleGlnZW0uCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcGFyc2VQcm9iZU1hdGNoKHhtbDogU3RyaW5nLCBmcm9tOiBTdHJpbmcpOiBEaXNjb3ZlcmVkRGV2aWNlPyA9IHRyeSB7CiAgICAgICAgdmFsIHJvb3QgPSBwYXJzZVhtbCh4bWwpCiAgICAgICAgdmFsIG1hdGNoID0gcm9vdC5kZXNjZW5kYW50cygiUHJvYmVNYXRjaGVzIikuZmlyc3RPck51bGwoKQogICAgICAgICAgICA/LmxldCB7IGl0LmRlc2NlbmRhbnRzKCJQcm9iZU1hdGNoIikuZmlyc3RPck51bGwoKSB9ID86IHJldHVybiBudWxsCiAgICAgICAgdmFsIHhhZGRyID0gbWF0Y2guZGVzY2VuZGFudHMoIlhBZGRyIikuZmlyc3RPck51bGwoKT8udGV4dENvbnRlbnQ/LnRyaW0oKQogICAgICAgICAgICA/OiByZXR1cm4gbnVsbAogICAgICAgIHZhbCB0eXBlcyA9IG1hdGNoLmRlc2NlbmRhbnRzKCJUeXBlcyIpLmZpcnN0T3JOdWxsKCk/LnRleHRDb250ZW50Py50cmltKCkub3JFbXB0eSgpCiAgICAgICAgdmFsIHNjb3BlcyA9IG1hdGNoLmRlc2NlbmRhbnRzKCJTY29wZXMiKS5maXJzdE9yTnVsbCgpPy50ZXh0Q29udGVudD8udHJpbSgpLm9yRW1wdHkoKQogICAgICAgIHZhbCBtb2RlbCA9IHNjb3Blcy5zcGxpdCgiICIpCiAgICAgICAgICAgIC5maXJzdE9yTnVsbCB7IGl0LmNvbnRhaW5zKCIvbmFtZS8iLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfQogICAgICAgICAgICA/LnN1YnN0cmluZ0FmdGVyTGFzdCgiLyIpCiAgICAgICAgdmFsIGhhcmR3YXJlID0gc2NvcGVzLnNwbGl0KCIgIikKICAgICAgICAgICAgLmZpcnN0T3JOdWxsIHsgaXQuY29udGFpbnMoIi9oYXJkd2FyZS8iLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfQogICAgICAgICAgICA/LnN1YnN0cmluZ0FmdGVyTGFzdCgiLyIpCiAgICAgICAgRGlzY292ZXJlZERldmljZSgKICAgICAgICAgICAgeGFkZHIgPSB4YWRkciwKICAgICAgICAgICAgYWRkcmVzcyA9IGZyb20sCiAgICAgICAgICAgIHR5cGVzID0gdHlwZXMsCiAgICAgICAgICAgIG1vZGVsID0gbW9kZWwsCiAgICAgICAgICAgIGhhcmR3YXJlID0gaGFyZHdhcmUKICAgICAgICApCiAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICBudWxsCiAgICB9CgogICAgZGF0YSBjbGFzcyBEaXNjb3ZlcmVkRGV2aWNlKAogICAgICAgIHZhbCB4YWRkcjogU3RyaW5nLAogICAgICAgIHZhbCBhZGRyZXNzOiBTdHJpbmcsCiAgICAgICAgdmFsIHR5cGVzOiBTdHJpbmcsCiAgICAgICAgdmFsIG1vZGVsOiBTdHJpbmc/LAogICAgICAgIHZhbCBoYXJkd2FyZTogU3RyaW5nPwogICAgKQp9Cg==
+package com.seeall.agent.camera
+
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import java.net.DatagramPacket
+import java.net.DatagramSocket
+import java.net.InetAddress
+import java.util.UUID
+
+/**
+ * WS-Discovery sobre UDP multicast (239.255.255.250:3702).
+ * Retorna os endereços XAddr de dispositivos ONVIF na LAN.
+ */
+class OnvifDiscovery(
+    private val timeoutMs: Int = 3_000,
+    private val repeats: Int = 2
+) {
+    private val multicastAddress: InetAddress = InetAddress.getByName("239.255.255.250")
+    private val port = 3702
+
+    suspend fun discover(): List<DiscoveredDevice> = withContext(Dispatchers.IO) {
+        val results = mutableMapOf<String, DiscoveredDevice>()
+        val socket = DatagramSocket(null).apply {
+            reuseAddress = true
+            broadcast = true
+        }
+        try {
+            val message = probeMessage()
+            val bytes = message.toByteArray(Charsets.UTF_8)
+            val packet = DatagramPacket(bytes, bytes.size, multicastAddress, port)
+            val buffer = ByteArray(16_384)
+
+            repeat(repeats) {
+                socket.send(packet)
+                val deadline = System.currentTimeMillis() + timeoutMs.toLong()
+                while (System.currentTimeMillis() < deadline) {
+                    socket.soTimeout = maxOf(200, (deadline - System.currentTimeMillis()).toInt())
+                    val response = DatagramPacket(buffer, buffer.size)
+                    try {
+                        socket.receive(response)
+                        val xml = String(response.data, response.offset, response.length, Charsets.UTF_8)
+                        parseProbeMatch(xml, response.address.hostAddress)?.let { device ->
+                            results[device.xaddr] = device
+                        }
+                    } catch (_: java.net.SocketTimeoutException) {
+                        break
+                    }
+                }
+            }
+        } finally {
+            socket.close()
+        }
+        results.values.toList()
+    }
+
+    private fun probeMessage(): String = buildString {
+        append("""<?xml version="1.0" encoding="UTF-8"?>""")
+        append("""<e:Probe xmlns:e="http://schemas.xmlsoap.org/ws/2005/04/discovery">""")
+        append("""<e:Types>tds:Device</e:Types>""")
+        append("""<e:Scopes>onvif://www.onvif.org/type</e:Scopes>""")
+        append("""</e:Probe>""")
+        // Header com MessageID e To é opcional em WS-Discovery, mas alguns devices exigem.
+    }
+
+    private fun parseProbeMatch(xml: String, from: String): DiscoveredDevice? = try {
+        val root = parseXml(xml)
+        val match = root.descendants("ProbeMatches").firstOrNull()
+            ?.let { it.descendants("ProbeMatch").firstOrNull() } ?: return null
+        val xaddr = match.descendants("XAddr").firstOrNull()?.textContent?.trim()
+            ?: return null
+        val types = match.descendants("Types").firstOrNull()?.textContent?.trim().orEmpty()
+        val scopes = match.descendants("Scopes").firstOrNull()?.textContent?.trim().orEmpty()
+        val model = scopes.split(" ")
+            .firstOrNull { it.contains("/name/", ignoreCase = true) }
+            ?.substringAfterLast("/")
+        val hardware = scopes.split(" ")
+            .firstOrNull { it.contains("/hardware/", ignoreCase = true) }
+            ?.substringAfterLast("/")
+        DiscoveredDevice(
+            xaddr = xaddr,
+            address = from,
+            types = types,
+            model = model,
+            hardware = hardware
+        )
+    } catch (_: Exception) {
+        null
+    }
+
+    data class DiscoveredDevice(
+        val xaddr: String,
+        val address: String,
+        val types: String,
+        val model: String?,
+        val hardware: String?
+    )
+}
