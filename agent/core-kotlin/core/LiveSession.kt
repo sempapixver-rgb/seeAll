@@ -1,1 +1,29 @@
-cGFja2FnZSBjb20uc2VlYWxsLmFnZW50LmNvcmUKCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5GbG93CgovKiogU2Vzc8OjbyBkZSB2w61kZW8gYW8gdml2byBvdSBwbGF5YmFjay4gKi8KaW50ZXJmYWNlIExpdmVTZXNzaW9uIHsKICAgIHZhbCBmcmFtZXM6IEZsb3c8VmlkZW9GcmFtZT4KICAgIHZhbCBldmVudHM6IEZsb3c8U2Vzc2lvbkV2ZW50PgoKICAgIHN1c3BlbmQgZnVuIHN0YXJ0KCkKICAgIHN1c3BlbmQgZnVuIHN0b3AoKQoKICAgIGZ1biBpc1J1bm5pbmcoKTogQm9vbGVhbgp9CgpkYXRhIGNsYXNzIFZpZGVvRnJhbWUoCiAgICB2YWwgdGltZXN0YW1wTXM6IExvbmcsCiAgICB2YWwgZGF0YTogQnl0ZUFycmF5LAogICAgdmFsIGtleUZyYW1lOiBCb29sZWFuLAogICAgdmFsIHdpZHRoOiBJbnQsCiAgICB2YWwgaGVpZ2h0OiBJbnQKKQoKc2VhbGVkIGNsYXNzIFNlc3Npb25FdmVudCB7CiAgICBkYXRhIGNsYXNzIENvbm5lY3RlZCh2YWwgZGVzY3JpcHRvcjogU3RyZWFtRGVzY3JpcHRvcikgOiBTZXNzaW9uRXZlbnQoKQogICAgZGF0YSBjbGFzcyBFcnJvcih2YWwgdGhyb3dhYmxlOiBUaHJvd2FibGUpIDogU2Vzc2lvbkV2ZW50KCkKICAgIG9iamVjdCBEaXNjb25uZWN0ZWQgOiBTZXNzaW9uRXZlbnQoKQogICAgZGF0YSBjbGFzcyBSZWNvbm5lY3RpbmcodmFsIGF0dGVtcHQ6IEludCkgOiBTZXNzaW9uRXZlbnQoKQp9Cg==
+package com.seeall.agent.core
+
+import kotlinx.coroutines.flow.Flow
+
+/** Sessão de vídeo ao vivo ou playback. */
+interface LiveSession {
+    val frames: Flow<VideoFrame>
+    val events: Flow<SessionEvent>
+
+    suspend fun start()
+    suspend fun stop()
+
+    fun isRunning(): Boolean
+}
+
+data class VideoFrame(
+    val timestampMs: Long,
+    val data: ByteArray,
+    val keyFrame: Boolean,
+    val width: Int,
+    val height: Int
+)
+
+sealed class SessionEvent {
+    data class Connected(val descriptor: StreamDescriptor) : SessionEvent()
+    data class Error(val throwable: Throwable) : SessionEvent()
+    object Disconnected : SessionEvent()
+    data class Reconnecting(val attempt: Int) : SessionEvent()
+}
