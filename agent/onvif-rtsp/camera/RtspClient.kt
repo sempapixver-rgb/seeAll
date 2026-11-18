@@ -1,1 +1,214 @@
-cGFja2FnZSBjb20uc2VlYWxsLmFnZW50LmNhbWVyYQoKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuZmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CmltcG9ydCBqYXZhLmlvLkJ1ZmZlcmVkSW5wdXRTdHJlYW0KaW1wb3J0IGphdmEuaW8uRGF0YUlucHV0U3RyZWFtCmltcG9ydCBqYXZhLmlvLk91dHB1dFN0cmVhbQppbXBvcnQgamF2YS5uZXQuSW5ldFNvY2tldEFkZHJlc3MKaW1wb3J0IGphdmEubmV0LlNvY2tldAppbXBvcnQgamF2YS5zZWN1cml0eS5TZWN1cmVSYW5kb20KaW1wb3J0IGphdmEudXRpbC5CYXNlNjQKCi8qKgogKkNsaWVudGUgUlRTUCBtw61uaW1vIHNvYnJlIFRDUCBpbnRlcmxlYXZlZCAoUlRQL1JUQ1Agbm8gbWVzbW8gc29ja2V0KS4KICpGYXogT1BUSU9OUyAtPiBERVNDUklCRSAtPiBTRVRVUCAtPiBQTEFZIGUgZW1pdGUgTkFMVXMgSC4yNjQgY29tcGxldGFzLgogKi8KY2xhc3MgUnRzcENsaWVudCgKICAgIHByaXZhdGUgdmFsIHVyaTogU3RyaW5nLAogICAgcHJpdmF0ZSB2YWwgdXNlcm5hbWU6IFN0cmluZz8gPSBudWxsLAogICAgcHJpdmF0ZSB2YWwgcGFzc3dvcmQ6IFN0cmluZz8gPSBudWxsLAogICAgcHJpdmF0ZSB2YWwgc29ja2V0VGltZW91dE1zOiBJbnQgPSAxNV8wMDAKKSB7CiAgICBwcml2YXRlIHZhciBzb2NrZXQ6IFNvY2tldD8gPSBudWxsCiAgICBwcml2YXRlIHZhciBzZXNzaW9uSWQ6IFN0cmluZz8gPSBudWxsCiAgICBwcml2YXRlIHZhciBjc2VxID0gMAogICAgcHJpdmF0ZSB2YXIgdmlkZW9DaGFubmVsID0gMAogICAgQFZvbGF0aWxlIHByaXZhdGUgdmFyIHBsYXlpbmcgPSBmYWxzZQoKICAgIHZhbCBmcmFtZXM6IEZsb3c8SDI2NEZyYW1lPiA9IGZsb3cgewogICAgICAgIGNoZWNrKHBsYXlpbmcpIHsgIlJUU1AgbsOjbyBlc3TDoSB0b2NhbmRvIiB9CiAgICAgICAgdmFsIGlucHV0ID0gRGF0YUlucHV0U3RyZWFtKEJ1ZmZlcmVkSW5wdXRTdHJlYW0oc29ja2V0ISEuZ2V0SW5wdXRTdHJlYW0oKSkpCiAgICAgICAgdmFsIGJ1ZmZlciA9IEJ5dGVBcnJheSgxNTAwKQogICAgICAgIHZhbCBmdUJ1ZmZlciA9IGphdmEuaW8uQnl0ZUFycmF5T3V0cHV0U3RyZWFtKCkKCiAgICAgICAgd2hpbGUgKHBsYXlpbmcpIHsKICAgICAgICAgICAgLy8gUHJvY3VyYXIgc3RhcnRzIGRlIGludGVybGVhdmVkIGZyYW1lOiAnJCcKICAgICAgICAgICAgdmFyIGIgPSBpbnB1dC5yZWFkKCkKICAgICAgICAgICAgaWYgKGIgPT0gLTEpIGJyZWFrCiAgICAgICAgICAgIGlmIChiICE9IDB4MjQpIGNvbnRpbnVlCiAgICAgICAgICAgIHZhbCBjaGFubmVsID0gaW5wdXQucmVhZCgpCiAgICAgICAgICAgIHZhbCBsZW5ndGggPSBpbnB1dC5yZWFkVW5zaWduZWRTaG9ydCgpCiAgICAgICAgICAgIGlmIChsZW5ndGggPD0gMCB8fCBsZW5ndGggPiBidWZmZXIuc2l6ZSAqIDQpIGNvbnRpbnVlCiAgICAgICAgICAgIGlucHV0LnJlYWRGdWxseShidWZmZXIsIDAsIGxlbmd0aCkKICAgICAgICAgICAgaWYgKGNoYW5uZWwgIT0gdmlkZW9DaGFubmVsKSBjb250aW51ZSAvLyBSVENQIG91IG91dHJvIHRyYWNrCgogICAgICAgICAgICB2YWwgbmFsID0gdW53cmFwUnRwVG9OYWwoYnVmZmVyLCBsZW5ndGgsIGZ1QnVmZmVyKSA/OiBjb250aW51ZQogICAgICAgICAgICBlbWl0KEgyNjRGcmFtZShuYWwsIFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpLCBpc0tleUZyYW1lKG5hbCkpKQogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBjb25uZWN0QW5kUGxheSgpOiBSZXN1bHQ8VW5pdD4gPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgdmFsIHBhcnNlZCA9IHBhcnNlVXJpKHVyaSkKICAgICAgICAgICAgc29ja2V0ID0gU29ja2V0KCkuYXBwbHkgewogICAgICAgICAgICAgICAgY29ubmVjdChJbmV0U29ja2V0QWRkcmVzcyhwYXJzZWQuaG9zdCwgcGFyc2VkLnBvcnQpLCBzb2NrZXRUaW1lb3V0TXMpCiAgICAgICAgICAgICAgICBzb1RpbWVvdXQgPSBzb2NrZXRUaW1lb3V0TXMKICAgICAgICAgICAgICAgIHRjcE5vRGVsYXkgPSB0cnVlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIG91dCA9IHNvY2tldCEhLmdldE91dHB1dFN0cmVhbSgpCiAgICAgICAgICAgIHZhbCBpbnB1dCA9IHNvY2tldCEhLmdldElucHV0U3RyZWFtKCkKCiAgICAgICAgICAgIHNlbmQob3V0LCAiT1BUSU9OUyAke3BhcnNlZC5wYXRofSBSVFNQLzEuMCIsIGV4dHJhID0gbGlzdE9mKCJDU2VxOiAke25leHRDc2VxKCl9IikpCiAgICAgICAgICAgIHJlYWRSZXNwb25zZShpbnB1dCkKCiAgICAgICAgICAgIHNlbmQoCiAgICAgICAgICAgICAgICBvdXQsICJERVNDUklCRSAke3BhcnNlZC5wYXRofSBSVFNQLzEuMCIsCiAgICAgICAgICAgICAgICBleHRyYSA9IGxpc3RPZigiQ1NlcTogJHtuZXh0Q3NlcSgpfSIsICJBY2NlcHQ6IGFwcGxpY2F0aW9uL3NkcCIpCiAgICAgICAgICAgICkKICAgICAgICAgICAgdmFsIGRlc2NyaWJlUmVzcG9uc2UgPSByZWFkUmVzcG9uc2UoaW5wdXQpCiAgICAgICAgICAgIHZhbCBzZHAgPSBkZXNjcmliZVJlc3BvbnNlLmJvZHkKICAgICAgICAgICAgdmFsIGNvbnRyb2wgPSBwYXJzZVNkcENvbnRyb2woc2RwKSA/OiBwYXJzZWQucGF0aAogICAgICAgICAgICB2YWwgaXNIMjY0ID0gc2RwLmNvbnRhaW5zKCJtPXZpZGVvIiwgaWdub3JlQ2FzZSA9IHRydWUpICYmCiAgICAgICAgICAgICAgICAoc2RwLmNvbnRhaW5zKCI5NiIsIGlnbm9yZUNhc2UgPSB0cnVlKSB8fCBzZHAuY29udGFpbnMoIkgyNjQiLCBpZ25vcmVDYXNlID0gdHJ1ZSkpCiAgICAgICAgICAgIGNoZWNrKGlzSDI2NCkgeyAiU0RQIG7Do28gYW51bmNpYSBILjI2NCIgfQoKICAgICAgICAgICAgdmFsIHNldHVwVXJsID0gaWYgKGNvbnRyb2wuc3RhcnRzV2l0aCgicnRzcDovLyIpKSBjb250cm9sIGVsc2UgIiR7cGFyc2VkLmJhc2VVcmx9JGNvbnRyb2wiCiAgICAgICAgICAgIHNlbmQoCiAgICAgICAgICAgICAgICBvdXQsICJTRVRVUCAkc2V0dXBVcmwgUlRTUC8xLjAiLAogICAgICAgICAgICAgICAgZXh0cmEgPSBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgIkNTZXE6ICR7bmV4dENzZXEoKX0iLAogICAgICAgICAgICAgICAgICAgICJUcmFuc3BvcnQ6IFJUUC9BVlAvVENQO3VuaWNhc3Q7aW50ZXJsZWF2ZWQ9MC0xIgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgICAgIHZhbCBzZXR1cFJlc3BvbnNlID0gcmVhZFJlc3BvbnNlKGlucHV0KQogICAgICAgICAgICBzZXNzaW9uSWQgPSBzZXR1cFJlc3BvbnNlLmhlYWRlcnNbIlNlc3Npb24iXT8uc3Vic3RyaW5nQmVmb3JlKCc7JykKICAgICAgICAgICAgY2hlY2soIXNlc3Npb25JZC5pc051bGxPckJsYW5rKCkpIHsgIlNFVFVQIHNlbSBTZXNzaW9uIiB9CiAgICAgICAgICAgIHZpZGVvQ2hhbm5lbCA9IDAKCiAgICAgICAgICAgIHZhbCBwbGF5VXJsID0gaWYgKGNvbnRyb2wuc3RhcnRzV2l0aCgicnRzcDovLyIpKSBjb250cm9sIGVsc2UgIiR7cGFyc2VkLmJhc2VVcmx9JGNvbnRyb2wiCiAgICAgICAgICAgIHNlbmQoCiAgICAgICAgICAgICAgICBvdXQsICJQTEFZICRwbGF5VXJsIFJUU1AvMS4wIiwKICAgICAgICAgICAgICAgIGV4dHJhID0gbGlzdE9mKCJDU2VxOiAke25leHRDc2VxKCl9IiwgIlNlc3Npb246ICRzZXNzaW9uSWQiLCAiUmFuZ2U6IG5wdD0wLjAwMC0iKQogICAgICAgICAgICApCiAgICAgICAgICAgIHJlYWRSZXNwb25zZShpbnB1dCkKICAgICAgICAgICAgcGxheWluZyA9IHRydWUKICAgICAgICB9Lm9uRmFpbHVyZSB7CiAgICAgICAgICAgIGNsb3NlKCkKICAgICAgICB9CiAgICB9CgogICAgZnVuIGNsb3NlKCkgewogICAgICAgIHBsYXlpbmcgPSBmYWxzZQogICAgICAgIHNvY2tldD8uY2xvc2UoKQogICAgICAgIHNvY2tldCA9IG51bGwKICAgIH0KCiAgICBwcml2YXRlIGZ1biBuZXh0Q3NlcSgpOiBJbnQgPSArK2NzZXEKCiAgICBwcml2YXRlIGZ1biBzZW5kKG91dDogT3V0cHV0U3RyZWFtLCByZXF1ZXN0TGluZTogU3RyaW5nLCBleHRyYTogTGlzdDxTdHJpbmc+KTogU3RyaW5nIHsKICAgICAgICB2YWwgbGluZXMgPSBidWlsZExpc3QgewogICAgICAgICAgICBhZGQocmVxdWVzdExpbmUpCiAgICAgICAgICAgIGFkZEFsbChleHRyYSkKICAgICAgICAgICAgaWYgKCF1c2VybmFtZS5pc051bGxPckJsYW5rKCkgJiYgIXBhc3N3b3JkLmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICAgICAgdmFsIHRva2VuID0gQmFzZTY0LmdldEVuY29kZXIoKS5lbmNvZGVUb1N0cmluZygiJHVzZXJuYW1lOiRwYXNzd29yZCIudG9CeXRlQXJyYXkoKSkKICAgICAgICAgICAgICAgIGFkZCgiQXV0aG9yaXphdGlvbjogQmFzaWMgJHRva2VuIikKICAgICAgICAgICAgfQogICAgICAgICAgICBhZGQoIlVzZXItQWdlbnQ6IHNlZUFsbC1hZ2VudC8xLjAiKQogICAgICAgICAgICBhZGQoIiIpCiAgICAgICAgICAgIGFkZCgiIikKICAgICAgICB9CiAgICAgICAgdmFsIHBheWxvYWQgPSBsaW5lcy5qb2luVG9TdHJpbmcoIlxyXG4iKQogICAgICAgIG91dC53cml0ZShwYXlsb2FkLnRvQnl0ZUFycmF5KENoYXJzZXRzLlVTX0FTQ0lJKSkKICAgICAgICBvdXQuZmx1c2goKQogICAgICAgIHJldHVybiBwYXlsb2FkCiAgICB9CgogICAgcHJpdmF0ZSBkYXRhIGNsYXNzIFJ0c3BSZXNwb25zZSh2YWwgc3RhdHVzOiBJbnQsIHZhbCBoZWFkZXJzOiBNYXA8U3RyaW5nLCBTdHJpbmc+LCB2YWwgYm9keTogU3RyaW5nKQoKICAgIHByaXZhdGUgZnVuIHJlYWRSZXNwb25zZShpbnB1dDogamF2YS5pby5JbnB1dFN0cmVhbSk6IFJ0c3BSZXNwb25zZSB7CiAgICAgICAgdmFsIGhlYWRlcnMgPSBtdXRhYmxlTWFwT2Y8U3RyaW5nLCBTdHJpbmc+KCkKICAgICAgICB2YXIgc3RhdHVzID0gMAogICAgICAgIHZhciBsaW5lID0gcmVhZExpbmUoaW5wdXQpCiAgICAgICAgaWYgKGxpbmUuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgIHZhbCBwYXJ0cyA9IGxpbmUuc3BsaXQoIiAiLCBsaW1pdCA9IDMpCiAgICAgICAgICAgIHN0YXR1cyA9IHBhcnRzLmdldE9yTnVsbCgxKT8udG9JbnRPck51bGwoKSA/OiAwCiAgICAgICAgfQogICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgIGxpbmUgPSByZWFkTGluZShpbnB1dCkKICAgICAgICAgICAgaWYgKGxpbmUuaXNFbXB0eSgpKSBicmVhawogICAgICAgICAgICB2YWwgaWR4ID0gbGluZS5pbmRleE9mKCc6JykKICAgICAgICAgICAgaWYgKGlkeCA+IDApIGhlYWRlcnNbbGluZS5zdWJzdHJpbmcoMCwgaWR4KS50cmltKCldID0gbGluZS5zdWJzdHJpbmcoaWR4ICsgMSkudHJpbSgpCiAgICAgICAgfQogICAgICAgIHZhbCBsZW5ndGggPSBoZWFkZXJzWyJDb250ZW50LUxlbmd0aCJdPy50b0ludE9yTnVsbCgpID86IDAKICAgICAgICB2YWwgYm9keSA9IGlmIChsZW5ndGggPiAwKSBTdHJpbmcoaW5wdXQucmVhZE5CeXRlcyhsZW5ndGgpLCBDaGFyc2V0cy5VVEZfOCkgZWxzZSAiIgogICAgICAgIGNoZWNrKHN0YXR1cyBpbiAyMDAuLjI5OSkgeyAiUlRTUCBzdGF0dXMgJHN0YXR1czogJHtib2R5LnRha2UoMjAwKX0iIH0KICAgICAgICByZXR1cm4gUnRzcFJlc3BvbnNlKHN0YXR1cywgaGVhZGVycywgYm9keSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biByZWFkTGluZShpbnB1dDogamF2YS5pby5JbnB1dFN0cmVhbSk6IFN0cmluZyB7CiAgICAgICAgdmFsIG91dCA9IGphdmEuaW8uQnl0ZUFycmF5T3V0cHV0U3RyZWFtKCkKICAgICAgICB3aGlsZSAodHJ1ZSkgewogICAgICAgICAgICB2YWwgYiA9IGlucHV0LnJlYWQoKQogICAgICAgICAgICBpZiAoYiA9PSAtMSB8fCBiID09ICdcbicuY29kZSkgYnJlYWsKICAgICAgICAgICAgaWYgKGIgIT0gJ1xyJy5jb2RlKSBvdXQud3JpdGUoYikKICAgICAgICB9CiAgICAgICAgcmV0dXJuIG91dC50b1N0cmluZyhDaGFyc2V0cy5VU19BU0NJSS5uYW1lKCkpLnRyaW0oKQogICAgfQoKICAgIHByaXZhdGUgZGF0YSBjbGFzcyBQYXJzZWRVcmkodmFsIGhvc3Q6IFN0cmluZywgdmFsIHBvcnQ6IEludCwgdmFsIHBhdGg6IFN0cmluZywgdmFsIGJhc2VVcmw6IFN0cmluZykKCiAgICBwcml2YXRlIGZ1biBwYXJzZVVyaSh2YWx1ZTogU3RyaW5nKTogUGFyc2VkVXJpIHsKICAgICAgICB2YWwgc3RyaXBwZWQgPSB2YWx1ZS5yZW1vdmVQcmVmaXgoInJ0c3A6Ly8iKS5yZW1vdmVQcmVmaXgoInJ0c3BzOi8vIikKICAgICAgICB2YWwgYXV0aG9yaXR5ID0gc3RyaXBwZWQuc3Vic3RyaW5nQmVmb3JlKCcvJykKICAgICAgICB2YWwgcGF0aCA9ICIvIiArIHN0cmlwcGVkLnN1YnN0cmluZ0FmdGVyKCcvJywgIiIpCiAgICAgICAgdmFsIGhvc3QgPSBhdXRob3JpdHkuc3Vic3RyaW5nQmVmb3JlKCc6JykKICAgICAgICB2YWwgcG9ydCA9IGF1dGhvcml0eS5zdWJzdHJpbmdBZnRlcignOicsICI1NTQiKS50b0ludE9yTnVsbCgpID86IDU1NAogICAgICAgIHJldHVybiBQYXJzZWRVcmkoaG9zdCwgcG9ydCwgcGF0aCwgInJ0c3A6Ly8kYXV0aG9yaXR5IikKICAgIH0KCiAgICBwcml2YXRlIGZ1biBwYXJzZVNkcENvbnRyb2woc2RwOiBTdHJpbmcpOiBTdHJpbmc/ID0KICAgICAgICBzZHAubGluZVNlcXVlbmNlKCkubWFwTm90TnVsbCB7IGxpbmUgLT4KICAgICAgICAgICAgbGluZS50YWtlSWYgeyBpdC5zdGFydHNXaXRoKCJhPWNvbnRyb2w6IiwgaWdub3JlQ2FzZSA9IHRydWUpIH0KICAgICAgICAgICAgICAgID8uc3Vic3RyaW5nQWZ0ZXIoJzonLCAiIikKICAgICAgICAgICAgICAgID8udHJpbSgpCiAgICAgICAgICAgICAgICA/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSAmJiBpdCAhPSAiKiIgfQogICAgICAgIH0uZmlyc3RPck51bGwoKQoKICAgIHByaXZhdGUgZnVuIHVud3JhcFJ0cFRvTmFsKHBhY2tldDogQnl0ZUFycmF5LCBsZW5ndGg6IEludCwgZnU6IGphdmEuaW8uQnl0ZUFycmF5T3V0cHV0U3RyZWFtKTogQnl0ZUFycmF5PyB7CiAgICAgICAgaWYgKGxlbmd0aCA8IDEyKSByZXR1cm4gbnVsbAogICAgICAgIHZhbCBwYXlsb2FkVHlwZSA9IHBhY2tldFsxXS50b0ludCgpIGFuZCAweDdGCiAgICAgICAgaWYgKHBheWxvYWRUeXBlICE9IDk2ICYmIHBheWxvYWRUeXBlICE9IDk3KSByZXR1cm4gbnVsbAogICAgICAgIHZhbCBtYXJrZXIgPSBwYWNrZXRbMV0udG9JbnQoKSBhbmQgMHg4MCAhPSAwCiAgICAgICAgdmFsIG9mZnNldCA9IDEyICsgKChwYWNrZXRbMF0udG9JbnQoKSBhbmQgMHgwRikgKiA0KQogICAgICAgIGlmIChvZmZzZXQgPj0gbGVuZ3RoKSByZXR1cm4gbnVsbAogICAgICAgIHZhbCBuYWxIZWFkZXIgPSBwYWNrZXRbb2Zmc2V0XS50b0ludCgpIGFuZCAweEZGCiAgICAgICAgdmFsIHR5cGUgPSBuYWxIZWFkZXIgYW5kIDB4MUYKICAgICAgICB2YWwgcGF5bG9hZCA9IHBhY2tldC5jb3B5T2ZSYW5nZShvZmZzZXQgKyAxLCBsZW5ndGgpCgogICAgICAgIHJldHVybiB3aGVuICh0eXBlKSB7CiAgICAgICAgICAgIDI4IC0+IHsgLy8gRlUtQQogICAgICAgICAgICAgICAgdmFsIHN0YXJ0ID0gcGF5bG9hZFswXS50b0ludCgpIGFuZCAweDgwICE9IDAKICAgICAgICAgICAgICAgIHZhbCBlbmQgPSBwYXlsb2FkWzFdLnRvSW50KCkgYW5kIDB4NDAgIT0gMAogICAgICAgICAgICAgICAgdmFsIHJlY29uc3RydWN0ZWRIZWFkZXIgPSAocGF5bG9hZFswXS50b0ludCgpIGFuZCAweEUwKSBvciAocGF5bG9hZFsxXS50b0ludCgpIGFuZCAweDFGKQogICAgICAgICAgICAgICAgaWYgKHN0YXJ0KSB7CiAgICAgICAgICAgICAgICAgICAgZnUucmVzZXQoKQogICAgICAgICAgICAgICAgICAgIGZ1LndyaXRlKHJlY29uc3RydWN0ZWRIZWFkZXIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBmdS53cml0ZShwYXlsb2FkLCAyLCBwYXlsb2FkLnNpemUgLSAyKQogICAgICAgICAgICAgICAgaWYgKGVuZCB8fCBtYXJrZXIpIGZ1LnRvQnl0ZUFycmF5KCkuYWxzbyB7IGZ1LnJlc2V0KCkgfSBlbHNlIG51bGwKICAgICAgICAgICAgfQogICAgICAgICAgICAyOSAtPiBudWxsIC8vIEZVLUIsIGlnbm9yYWRvCiAgICAgICAgICAgIGVsc2UgLT4gYnl0ZUFycmF5T2YobmFsSGVhZGVyLnRvQnl0ZSgpKSArIHBheWxvYWQgLy8gTkFMIHVuaXQgw7puaWNhIChJRFIvU1BTL1BQUykKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gaXNLZXlGcmFtZShuYWw6IEJ5dGVBcnJheSk6IEJvb2xlYW4gewogICAgICAgIGlmIChuYWwuaXNFbXB0eSgpKSByZXR1cm4gZmFsc2UKICAgICAgICByZXR1cm4gKG5hbFswXS50b0ludCgpIGFuZCAweDFGKSA9PSA1IC8vIElEUgogICAgfQoKICAgIGRhdGEgY2xhc3MgSDI2NEZyYW1lKHZhbCBuYWx1OiBCeXRlQXJyYXksIHZhbCB0aW1lc3RhbXBNczogTG9uZywgdmFsIGtleUZyYW1lOiBCb29sZWFuKQp9Cg==
+package com.seeall.agent.camera
+
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.withContext
+import java.io.BufferedInputStream
+import java.io.DataInputStream
+import java.io.OutputStream
+import java.net.InetSocketAddress
+import java.net.Socket
+import java.security.SecureRandom
+import java.util.Base64
+
+/**
+ *Cliente RTSP mínimo sobre TCP interleaved (RTP/RTCP no mesmo socket).
+ *Faz OPTIONS -> DESCRIBE -> SETUP -> PLAY e emite NALUs H.264 completas.
+ */
+class RtspClient(
+    private val uri: String,
+    private val username: String? = null,
+    private val password: String? = null,
+    private val socketTimeoutMs: Int = 15_000
+) {
+    private var socket: Socket? = null
+    private var sessionId: String? = null
+    private var cseq = 0
+    private var videoChannel = 0
+    @Volatile private var playing = false
+
+    val frames: Flow<H264Frame> = flow {
+        check(playing) { "RTSP não está tocando" }
+        val input = DataInputStream(BufferedInputStream(socket!!.getInputStream()))
+        val buffer = ByteArray(1500)
+        val fuBuffer = java.io.ByteArrayOutputStream()
+
+        while (playing) {
+            // Procurar starts de interleaved frame: '$'
+            var b = input.read()
+            if (b == -1) break
+            if (b != 0x24) continue
+            val channel = input.read()
+            val length = input.readUnsignedShort()
+            if (length <= 0 || length > buffer.size * 4) continue
+            input.readFully(buffer, 0, length)
+            if (channel != videoChannel) continue // RTCP ou outro track
+
+            val nal = unwrapRtpToNal(buffer, length, fuBuffer) ?: continue
+            emit(H264Frame(nal, System.currentTimeMillis(), isKeyFrame(nal)))
+        }
+    }
+
+    suspend fun connectAndPlay(): Result<Unit> = withContext(Dispatchers.IO) {
+        runCatching {
+            val parsed = parseUri(uri)
+            socket = Socket().apply {
+                connect(InetSocketAddress(parsed.host, parsed.port), socketTimeoutMs)
+                soTimeout = socketTimeoutMs
+                tcpNoDelay = true
+            }
+            val out = socket!!.getOutputStream()
+            val input = socket!!.getInputStream()
+
+            send(out, "OPTIONS ${parsed.path} RTSP/1.0", extra = listOf("CSeq: ${nextCseq()}"))
+            readResponse(input)
+
+            send(
+                out, "DESCRIBE ${parsed.path} RTSP/1.0",
+                extra = listOf("CSeq: ${nextCseq()}", "Accept: application/sdp")
+            )
+            val describeResponse = readResponse(input)
+            val sdp = describeResponse.body
+            val control = parseSdpControl(sdp) ?: parsed.path
+            val isH264 = sdp.contains("m=video", ignoreCase = true) &&
+                (sdp.contains("96", ignoreCase = true) || sdp.contains("H264", ignoreCase = true))
+            check(isH264) { "SDP não anuncia H.264" }
+
+            val setupUrl = if (control.startsWith("rtsp://")) control else "${parsed.baseUrl}$control"
+            send(
+                out, "SETUP $setupUrl RTSP/1.0",
+                extra = listOf(
+                    "CSeq: ${nextCseq()}",
+                    "Transport: RTP/AVP/TCP;unicast;interleaved=0-1"
+                )
+            )
+            val setupResponse = readResponse(input)
+            sessionId = setupResponse.headers["Session"]?.substringBefore(';')
+            check(!sessionId.isNullOrBlank()) { "SETUP sem Session" }
+            videoChannel = 0
+
+            val playUrl = if (control.startsWith("rtsp://")) control else "${parsed.baseUrl}$control"
+            send(
+                out, "PLAY $playUrl RTSP/1.0",
+                extra = listOf("CSeq: ${nextCseq()}", "Session: $sessionId", "Range: npt=0.000-")
+            )
+            readResponse(input)
+            playing = true
+        }.onFailure {
+            close()
+        }
+    }
+
+    fun close() {
+        playing = false
+        socket?.close()
+        socket = null
+    }
+
+    private fun nextCseq(): Int = ++cseq
+
+    private fun send(out: OutputStream, requestLine: String, extra: List<String>): String {
+        val lines = buildList {
+            add(requestLine)
+            addAll(extra)
+            if (!username.isNullOrBlank() && !password.isNullOrBlank()) {
+                val token = Base64.getEncoder().encodeToString("$username:$password".toByteArray())
+                add("Authorization: Basic $token")
+            }
+            add("User-Agent: seeAll-agent/1.0")
+            add("")
+            add("")
+        }
+        val payload = lines.joinToString("\r\n")
+        out.write(payload.toByteArray(Charsets.US_ASCII))
+        out.flush()
+        return payload
+    }
+
+    private data class RtspResponse(val status: Int, val headers: Map<String, String>, val body: String)
+
+    private fun readResponse(input: java.io.InputStream): RtspResponse {
+        val headers = mutableMapOf<String, String>()
+        var status = 0
+        var line = readLine(input)
+        if (line.isNotEmpty()) {
+            val parts = line.split(" ", limit = 3)
+            status = parts.getOrNull(1)?.toIntOrNull() ?: 0
+        }
+        while (true) {
+            line = readLine(input)
+            if (line.isEmpty()) break
+            val idx = line.indexOf(':')
+            if (idx > 0) headers[line.substring(0, idx).trim()] = line.substring(idx + 1).trim()
+        }
+        val length = headers["Content-Length"]?.toIntOrNull() ?: 0
+        val body = if (length > 0) String(input.readNBytes(length), Charsets.UTF_8) else ""
+        check(status in 200..299) { "RTSP status $status: ${body.take(200)}" }
+        return RtspResponse(status, headers, body)
+    }
+
+    private fun readLine(input: java.io.InputStream): String {
+        val out = java.io.ByteArrayOutputStream()
+        while (true) {
+            val b = input.read()
+            if (b == -1 || b == '\n'.code) break
+            if (b != '\r'.code) out.write(b)
+        }
+        return out.toString(Charsets.US_ASCII.name()).trim()
+    }
+
+    private data class ParsedUri(val host: String, val port: Int, val path: String, val baseUrl: String)
+
+    private fun parseUri(value: String): ParsedUri {
+        val stripped = value.removePrefix("rtsp://").removePrefix("rtsps://")
+        val authority = stripped.substringBefore('/')
+        val path = "/" + stripped.substringAfter('/', "")
+        val host = authority.substringBefore(':')
+        val port = authority.substringAfter(':', "554").toIntOrNull() ?: 554
+        return ParsedUri(host, port, path, "rtsp://$authority")
+    }
+
+    private fun parseSdpControl(sdp: String): String? =
+        sdp.lineSequence().mapNotNull { line ->
+            line.takeIf { it.startsWith("a=control:", ignoreCase = true) }
+                ?.substringAfter(':', "")
+                ?.trim()
+                ?.takeIf { it.isNotBlank() && it != "*" }
+        }.firstOrNull()
+
+    private fun unwrapRtpToNal(packet: ByteArray, length: Int, fu: java.io.ByteArrayOutputStream): ByteArray? {
+        if (length < 12) return null
+        val payloadType = packet[1].toInt() and 0x7F
+        if (payloadType != 96 && payloadType != 97) return null
+        val marker = packet[1].toInt() and 0x80 != 0
+        val offset = 12 + ((packet[0].toInt() and 0x0F) * 4)
+        if (offset >= length) return null
+        val nalHeader = packet[offset].toInt() and 0xFF
+        val type = nalHeader and 0x1F
+        val payload = packet.copyOfRange(offset + 1, length)
+
+        return when (type) {
+            28 -> { // FU-A
+                val start = payload[0].toInt() and 0x80 != 0
+                val end = payload[1].toInt() and 0x40 != 0
+                val reconstructedHeader = (payload[0].toInt() and 0xE0) or (payload[1].toInt() and 0x1F)
+                if (start) {
+                    fu.reset()
+                    fu.write(reconstructedHeader)
+                }
+                fu.write(payload, 2, payload.size - 2)
+                if (end || marker) fu.toByteArray().also { fu.reset() } else null
+            }
+            29 -> null // FU-B, ignorado
+            else -> byteArrayOf(nalHeader.toByte()) + payload // NAL unit única (IDR/SPS/PPS)
+        }
+    }
+
+    private fun isKeyFrame(nal: ByteArray): Boolean {
+        if (nal.isEmpty()) return false
+        return (nal[0].toInt() and 0x1F) == 5 // IDR
+    }
+
+    data class H264Frame(val nalu: ByteArray, val timestampMs: Long, val keyFrame: Boolean)
+}
