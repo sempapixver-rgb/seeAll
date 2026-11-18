@@ -1,1 +1,50 @@
-IyBzZWVBbGwgQWdlbnQg4oCUIE0yIE9OVklGL1JUU1AKCkltcGxlbWVudGHDp8OjbyBkYSBjYW1hZGEgMSBkZSBjb25leMOjbzogZGVzY29iZXJ0YSBPTlZJRiBuYSBMQU4gZSByZXByb2R1w6fDo28gUlRTUCBzb2JyZSBUQ1AgaW50ZXJsZWF2ZWQuCgojIyBBcnF1aXZvcwoKYGBgCmNhbWVyYS8KICBTb2FwLmt0ICAgICAgICAgICAgICAgICAgICDigJQgZW52ZWxvcGUgU09BUCwgV1MtU2VjdXJpdHkgUGFzc3dvcmREaWdlc3QsIGhlbHBlcnMgWE1MCiAgT252aWZEaXNjb3Zlcnkua3QgICAgICAgICAg4oCUIFdTLURpc2NvdmVyeSBVRFAgbXVsdGljYXN0IDIzOS4yNTUuMjU1LjI1MDozNzAyCiAgT252aWZDbGllbnQua3QgICAgICAgICAgICAg4oCUIEdldERldmljZUluZm9ybWF0aW9uLCBHZXRQcm9maWxlcywgR2V0U3RyZWFtVXJpLCBHZXRTbmFwc2hvdFVyaQogIFJ0c3BDbGllbnQua3QgICAgICAgICAgICAgIOKAlCBPUFRJT05TL0RFU0NSSUJFL1NFVFVQL1BMQVkgKyBSVFAgLT4gTkFMVXMgSC4yNjQKICBPbnZpZkNhbWVyYUNvbm5lY3Rpb24ua3QgICDigJQgQ2FtZXJhQ29ubmVjdGlvbiB2aWEgT05WSUYgKyBSVFNQCiAgUnRzcENhbWVyYUNvbm5lY3Rpb24ua3QgICAg4oCUIENhbWVyYUNvbm5lY3Rpb24gcG9yIFVSTCBSVFNQIG1hbnVhbAogIEluTWVtb3J5Q2FtZXJhUmVnaXN0cnkua3QgIOKAlCByZWdpc3RyeS9kZXNjb2JlcnRhICh0ZW1wb3LDoXJpbywgdmlyYSBSb29tIG5vIE03KQpgYGAKCiMjIENvbW8gdGVzdGFyCgpgYGBrb3RsaW4KdmFsIHJlZ2lzdHJ5ID0gSW5NZW1vcnlDYW1lcmFSZWdpc3RyeSgpCnZhbCBmb3VuZCA9IHJlZ2lzdHJ5LmRpc2NvdmVyKCkKZm91bmQub25TdWNjZXNzIHsgbGlzdCAtPgogICAgbGlzdC5mb3JFYWNoIHsgcHJpbnRsbigiJHtpdC5uYW1lfSBAICR7aXQuaG9zdH0iKSB9Cn0KCnZhbCBjYW1lcmEgPSByZWdpc3RyeS5saXN0KCkuZmlyc3QoKQpyZWdpc3RyeS5zZXRDcmVkZW50aWFscyhjYW1lcmEuaWQsICJhZG1pbiIsICJzZW5oYSIpCnZhbCBjb25uZWN0aW9uID0gcmVnaXN0cnkuY29ubmVjdGlvbkZvcihjYW1lcmEpCmNvbm5lY3Rpb24uY29ubmVjdCgpCgp2YWwgc3RyZWFtcyA9IGNvbm5lY3Rpb24uc3RyZWFtcygpLmdldE9yVGhyb3coKQp2YWwgc2Vzc2lvbiA9IGNvbm5lY3Rpb24ub3BlbkxpdmUoc3RyZWFtcy5maXJzdCgpKS5nZXRPclRocm93KCkKc2Vzc2lvbi5ldmVudHMuY29sbGVjdCB7IHByaW50bG4oaXQpIH0Kc2Vzc2lvbi5mcmFtZXMuY29sbGVjdCB7IGZyYW1lIC0+CiAgICBwcmludGxuKCJOQUxVICR7ZnJhbWUubmFsdS5zaXplfSBieXRlcyBrZXk9JHtmcmFtZS5rZXlGcmFtZX0iKQp9CmBgYAoKIyMgTGltaXRhw6fDtWVzIGNvbmhlY2lkYXMKCi0gV1MtRGlzY292ZXJ5IHJlc3BvbmRlIGFwZW5hcyBlbSBkaXNwb3NpdGl2b3MgY29tIE9OVklGIGhhYmlsaXRhZG8KLSBYTUwgcGFyc2VyIHVzYSBgRG9jdW1lbnRCdWlsZGVyRmFjdG9yeWAgY29tIGZlYXR1cmVzIGRlIHNlZ3VyYW7Dp2EgKHNlbSBEVEQvZW50aWRhZGVzIGV4dGVybmFzKQotIFJUU1AgYXNzdW1lIEguMjY0IHBheWxvYWQgdHlwZSA5Ni85NzsgSC4yNjUgZSDDoXVkaW8gYWluZGEgbsOjbyBzw6NvIGRlY29kaWZpY2Fkb3MKLSBQbGF5YmFjayBPTlZJRiAoUmVjb3JkaW5nIFNlYXJjaCkgZmljYSBwYXJhIG8gTTQKLSBSZWdpc3RyeSBlbSBtZW3Ds3JpYSBzb21lIGFvIHJlaW5pY2lhcjsgcGVyc2lzdMOqbmNpYSBubyBNNwoKIyMgU3RhdHVzCgpNMiBwcm9udG8gcGFyYSB0ZXN0ZSBjb20gY8OibWVyYSBPTlZJRiByZWFsIG91IFVSTCBSVFNQLgo=
+# seeAll Agent — M2 ONVIF/RTSP
+
+Implementação da camada 1 de conexão: descoberta ONVIF na LAN e reprodução RTSP sobre TCP interleaved.
+
+## Arquivos
+
+```
+camera/
+  Soap.kt                    — envelope SOAP, WS-Security PasswordDigest, helpers XML
+  OnvifDiscovery.kt          — WS-Discovery UDP multicast 239.255.255.250:3702
+  OnvifClient.kt             — GetDeviceInformation, GetProfiles, GetStreamUri, GetSnapshotUri
+  RtspClient.kt              — OPTIONS/DESCRIBE/SETUP/PLAY + RTP -> NALUs H.264
+  OnvifCameraConnection.kt   — CameraConnection via ONVIF + RTSP
+  RtspCameraConnection.kt    — CameraConnection por URL RTSP manual
+  InMemoryCameraRegistry.kt  — registry/descoberta (temporário, vira Room no M7)
+```
+
+## Como testar
+
+```kotlin
+val registry = InMemoryCameraRegistry()
+val found = registry.discover()
+found.onSuccess { list ->
+    list.forEach { println("${it.name} @ ${it.host}") }
+}
+
+val camera = registry.list().first()
+registry.setCredentials(camera.id, "admin", "senha")
+val connection = registry.connectionFor(camera)
+connection.connect()
+
+val streams = connection.streams().getOrThrow()
+val session = connection.openLive(streams.first()).getOrThrow()
+session.events.collect { println(it) }
+session.frames.collect { frame ->
+    println("NALU ${frame.nalu.size} bytes key=${frame.keyFrame}")
+}
+```
+
+## Limitações conhecidas
+
+- WS-Discovery responde apenas em dispositivos com ONVIF habilitado
+- XML parser usa `DocumentBuilderFactory` com features de segurança (sem DTD/entidades externas)
+- RTSP assume H.264 payload type 96/97; H.265 e áudio ainda não são decodificados
+- Playback ONVIF (Recording Search) fica para o M4
+- Registry em memória some ao reiniciar; persistência no M7
+
+## Status
+
+M2 pronto para teste com câmera ONVIF real ou URL RTSP.
