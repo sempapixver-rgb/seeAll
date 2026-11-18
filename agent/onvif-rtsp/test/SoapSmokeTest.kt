@@ -1,1 +1,19 @@
-cGFja2FnZSBjb20uc2VlYWxsLmFnZW50LmNhbWVyYQoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIFNtb2tlVGVzdCB7CiAgICBAVGVzdAogICAgZnVuIHNvYXBFbnZlbG9wZUlzV2VsbEZvcm1lZCgpIHsKICAgICAgICB2YWwgeG1sID0gc29hcEVudmVsb3BlKCI8dGRzOkdldERldmljZUluZm9ybWF0aW9uLz4iKQogICAgICAgIGFzc2VydFRydWUoeG1sLmNvbnRhaW5zKCJzOkVudmVsb3BlIikpCiAgICAgICAgYXNzZXJ0VHJ1ZSh4bWwuY29udGFpbnMoInM6Qm9keSIpKQogICAgICAgIGFzc2VydFRydWUoeG1sLmNvbnRhaW5zKCJHZXREZXZpY2VJbmZvcm1hdGlvbiIpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4geG1sRXNjYXBlSGFuZGxlc1NwZWNpYWxDaGFyYWN0ZXJzKCkgewogICAgICAgIGFzc2VydFRydWUoZXNjYXBlWG1sKCJhJmI8Yz5cImQnIikgPT0gImEmYW1wO2ImbHQ7YyZndDsmcXVvdDtkJmFwb3M7IikKICAgIH0KfQo=
+package com.seeall.agent.camera
+
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class SmokeTest {
+    @Test
+    fun soapEnvelopeIsWellFormed() {
+        val xml = soapEnvelope("<tds:GetDeviceInformation/>")
+        assertTrue(xml.contains("s:Envelope"))
+        assertTrue(xml.contains("s:Body"))
+        assertTrue(xml.contains("GetDeviceInformation"))
+    }
+
+    @Test
+    fun xmlEscapeHandlesSpecialCharacters() {
+        assertTrue(escapeXml("a&b<c>\"d'") == "a&amp;b&lt;c&gt;&quot;d&apos;")
+    }
+}
