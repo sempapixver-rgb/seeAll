@@ -1,1 +1,34 @@
-cGFja2FnZSBjb20uc2VlYWxsLmFnZW50LmNvcmUKCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5GbG93CgovKiogU2VnbWVudGHDp8OjbywgZmlsYSBsb2NhbCBlIHVwbG9hZCBwYXJhIGEgbnV2ZW0gZG8gY2xpZW50ZS4gKi8KaW50ZXJmYWNlIFJlY29yZGluZ1BpcGVsaW5lIHsKICAgIHZhbCB1cGxvYWRzOiBGbG93PFVwbG9hZFN0YXR1cz4KCiAgICBzdXNwZW5kIGZ1biBzdGFydChzZXNzaW9uOiBMaXZlU2Vzc2lvbiwgY2FtZXJhOiBDYW1lcmFEZXZpY2UpOiBSZXN1bHQ8VW5pdD4KICAgIHN1c3BlbmQgZnVuIHN0b3AoKQoKICAgIC8qKiBUYW1hbmhvIGRhIGZpbGEgbG9jYWwgcGVuZGVudGUuICovCiAgICBzdXNwZW5kIGZ1biBwZW5kaW5nQ291bnQoKTogSW50CgogICAgLyoqIEZvcsOnYXIgdGVudGF0aXZhIGRlIGVudmlvIGRhIGZpbGEuICovCiAgICBzdXNwZW5kIGZ1biBmbHVzaCgpOiBSZXN1bHQ8VW5pdD4KfQoKZGF0YSBjbGFzcyBSZWNvcmRpbmdTZWdtZW50KAogICAgdmFsIGlkOiBTdHJpbmcsCiAgICB2YWwgY2FtZXJhSWQ6IFN0cmluZywKICAgIHZhbCBzdGFydFRpbWVNczogTG9uZywKICAgIHZhbCBlbmRUaW1lTXM6IExvbmcsCiAgICB2YWwgbG9jYWxQYXRoOiBTdHJpbmcsCiAgICB2YWwgc2l6ZUJ5dGVzOiBMb25nLAogICAgdmFsIHByb2ZpbGU6IFN0cmVhbVByb2ZpbGUKKQoKc2VhbGVkIGNsYXNzIFVwbG9hZFN0YXR1cyB7CiAgICBkYXRhIGNsYXNzIFVwbG9hZGluZyh2YWwgc2VnbWVudDogUmVjb3JkaW5nU2VnbWVudCwgdmFsIHByb2dyZXNzOiBGbG9hdCkgOiBVcGxvYWRTdGF0dXMoKQogICAgZGF0YSBjbGFzcyBVcGxvYWRlZCh2YWwgc2VnbWVudDogUmVjb3JkaW5nU2VnbWVudCwgdmFsIHJlbW90ZUtleTogU3RyaW5nKSA6IFVwbG9hZFN0YXR1cygpCiAgICBkYXRhIGNsYXNzIEZhaWxlZCh2YWwgc2VnbWVudDogUmVjb3JkaW5nU2VnbWVudCwgdmFsIHJlYXNvbjogVGhyb3dhYmxlKSA6IFVwbG9hZFN0YXR1cygpCiAgICBkYXRhIGNsYXNzIFF1ZXVlZCh2YWwgc2VnbWVudDogUmVjb3JkaW5nU2VnbWVudCkgOiBVcGxvYWRTdGF0dXMoKQp9Cg==
+package com.seeall.agent.core
+
+import kotlinx.coroutines.flow.Flow
+
+/** Segmentação, fila local e upload para a nuvem do cliente. */
+interface RecordingPipeline {
+    val uploads: Flow<UploadStatus>
+
+    suspend fun start(session: LiveSession, camera: CameraDevice): Result<Unit>
+    suspend fun stop()
+
+    /** Tamanho da fila local pendente. */
+    suspend fun pendingCount(): Int
+
+    /** Forçar tentativa de envio da fila. */
+    suspend fun flush(): Result<Unit>
+}
+
+data class RecordingSegment(
+    val id: String,
+    val cameraId: String,
+    val startTimeMs: Long,
+    val endTimeMs: Long,
+    val localPath: String,
+    val sizeBytes: Long,
+    val profile: StreamProfile
+)
+
+sealed class UploadStatus {
+    data class Uploading(val segment: RecordingSegment, val progress: Float) : UploadStatus()
+    data class Uploaded(val segment: RecordingSegment, val remoteKey: String) : UploadStatus()
+    data class Failed(val segment: RecordingSegment, val reason: Throwable) : UploadStatus()
+    data class Queued(val segment: RecordingSegment) : UploadStatus()
+}
