@@ -28,9 +28,15 @@ jobs:
         with:
           gradle-version: '8.9'
 
+      - name: Clean Gradle cache
+        run: |
+          rm -rf ~/.gradle/caches
+          rm -rf android-agent/.gradle
+          rm -rf android-agent/app/build
+
       - name: Build debug APK
         working-directory: android-agent
-        run: gradle assembleDebug --stacktrace
+        run: gradle --no-daemon assembleDebug --stacktrace
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
