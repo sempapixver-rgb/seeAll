@@ -1,1 +1,40 @@
-cGFja2FnZSBjb20uc2VlYWxsLmFnZW50CgppbXBvcnQgYW5kcm9pZC5vcy5CdW5kbGUKaW1wb3J0IGFuZHJvaWQudmlldy5TdXJmYWNlSG9sZGVyCmltcG9ydCBhbmRyb2lkLnZpZXcuU3VyZmFjZVZpZXcKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LlRleHRWaWV3CmltcG9ydCBhbmRyb2lkeC5hcHBjb21wYXQuYXBwLkFwcENvbXBhdEFjdGl2aXR5CmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUubGlmZWN5Y2xlU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKCmNsYXNzIENhbWVyYUFjdGl2aXR5IDogQXBwQ29tcGF0QWN0aXZpdHkoKSB7CiAgICBwcml2YXRlIHZhciBwbGF5ZXI6IFJ0c3BQbGF5ZXI/ID0gbnVsbAoKICAgIG92ZXJyaWRlIGZ1biBvbkNyZWF0ZShzYXZlZEluc3RhbmNlU3RhdGU6IEJ1bmRsZT8pIHsKICAgICAgICBzdXBlci5vbkNyZWF0ZShzYXZlZEluc3RhbmNlU3RhdGUpCiAgICAgICAgc2V0Q29udGVudFZpZXcoUi5sYXlvdXQuYWN0aXZpdHlfY2FtZXJhKQoKICAgICAgICB2YWwgdXJpID0gaW50ZW50LmdldFN0cmluZ0V4dHJhKCJ1cmkiKS5vckVtcHR5KCkKICAgICAgICB2YWwgdXNlciA9IGludGVudC5nZXRTdHJpbmdFeHRyYSgidXNlciIpCiAgICAgICAgdmFsIHBhc3MgPSBpbnRlbnQuZ2V0U3RyaW5nRXh0cmEoInBhc3MiKQogICAgICAgIHZhbCBzdGF0dXMgPSBmaW5kVmlld0J5SWQ8VGV4dFZpZXc+KFIuaWQuY2FtZXJhU3RhdHVzKQogICAgICAgIHZhbCBzdXJmYWNlID0gZmluZFZpZXdCeUlkPFN1cmZhY2VWaWV3PihSLmlkLnZpZGVvU3VyZmFjZSkKCiAgICAgICAgc3VyZmFjZS5ob2xkZXIuYWRkQ2FsbGJhY2sob2JqZWN0IDogU3VyZmFjZUhvbGRlci5DYWxsYmFjayB7CiAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBzdXJmYWNlQ3JlYXRlZChob2xkZXI6IFN1cmZhY2VIb2xkZXIpIHsKICAgICAgICAgICAgICAgIHBsYXllciA9IFJ0c3BQbGF5ZXIodXJpLCB1c2VyLCBwYXNzLCBob2xkZXIuc3VyZmFjZSkgeyBtc2cgLT4KICAgICAgICAgICAgICAgICAgICBydW5PblVpVGhyZWFkIHsgc3RhdHVzLnRleHQgPSBtc2cgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgbGlmZWN5Y2xlU2NvcGUubGF1bmNoIHsgcGxheWVyPy5zdGFydCgpIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBvdmVycmlkZSBmdW4gc3VyZmFjZUNoYW5nZWQoaDogU3VyZmFjZUhvbGRlciwgZjogSW50LCB3OiBJbnQsIGh0OiBJbnQpIHt9CiAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBzdXJmYWNlRGVzdHJveWVkKGg6IFN1cmZhY2VIb2xkZXIpIHsgcGxheWVyPy5zdG9wKCkgfQogICAgICAgIH0pCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIG9uRGVzdHJveSgpIHsKICAgICAgICBwbGF5ZXI/LnN0b3AoKQogICAgICAgIHN1cGVyLm9uRGVzdHJveSgpCiAgICB9Cn0K
+package com.seeall.agent
+
+import android.os.Bundle
+import android.view.SurfaceHolder
+import android.view.SurfaceView
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.launch
+
+class CameraActivity : AppCompatActivity() {
+    private var player: RtspPlayer? = null
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_camera)
+
+        val uri = intent.getStringExtra("uri").orEmpty()
+        val user = intent.getStringExtra("user")
+        val pass = intent.getStringExtra("pass")
+        val status = findViewById<TextView>(R.id.cameraStatus)
+        val surface = findViewById<SurfaceView>(R.id.videoSurface)
+
+        surface.holder.addCallback(object : SurfaceHolder.Callback {
+            override fun surfaceCreated(holder: SurfaceHolder) {
+                player = RtspPlayer(uri, user, pass, holder.surface) { msg ->
+                    runOnUiThread { status.text = msg }
+                }
+                lifecycleScope.launch { player?.start() }
+            }
+            override fun surfaceChanged(h: SurfaceHolder, f: Int, w: Int, ht: Int) {}
+            override fun surfaceDestroyed(h: SurfaceHolder) { player?.stop() }
+        })
+    }
+
+    override fun onDestroy() {
+        player?.stop()
+        super.onDestroy()
+    }
+}
