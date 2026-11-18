@@ -1,1 +1,21 @@
-cGFja2FnZSBjb20uc2VlYWxsLmFnZW50LmNvcmUKCi8qKiBEZXN0aW5vIGRlIHN0b3JhZ2UgcGVydGVuY2VudGUgYW8gY2xpZW50ZSAoUzMtY29tcGF0aWJsZSkuICovCmRhdGEgY2xhc3MgQ2xvdWRUYXJnZXQoCiAgICB2YWwgcHJvdmlkZXI6IENsb3VkUHJvdmlkZXIsCiAgICB2YWwgZW5kcG9pbnQ6IFN0cmluZywKICAgIHZhbCBidWNrZXQ6IFN0cmluZywKICAgIHZhbCByZWdpb246IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHByZWZpeDogU3RyaW5nID0gInNlZWFsbC8iLAogICAgdmFsIGNyZWRlbnRpYWxzOiBDbG91ZENyZWRlbnRpYWxzLAogICAgdmFsIHJldGVudGlvbkRheXM6IEludCA9IDMwLAogICAgdmFsIHNlcnZlclNpZGVFbmNyeXB0aW9uOiBCb29sZWFuID0gdHJ1ZQopCgplbnVtIGNsYXNzIENsb3VkUHJvdmlkZXIgeyBBV1NfUzMsIENMT1VERkxBUkVfUjIsIEJBQ0tCTEFaRV9CMiwgTUlOSU8sIENVU1RPTV9TMyB9CgpzZWFsZWQgY2xhc3MgQ2xvdWRDcmVkZW50aWFscyB7CiAgICBkYXRhIGNsYXNzIEFjY2Vzc0tleSh2YWwgYWNjZXNzS2V5SWQ6IFN0cmluZywgdmFsIHNlY3JldEFjY2Vzc0tleTogU3RyaW5nKSA6IENsb3VkQ3JlZGVudGlhbHMoKQogICAgZGF0YSBjbGFzcyBTZXNzaW9uVG9rZW4odmFsIGFjY2Vzc0tleUlkOiBTdHJpbmcsIHZhbCBzZWNyZXRBY2Nlc3NLZXk6IFN0cmluZywgdmFsIHRva2VuOiBTdHJpbmcpIDogQ2xvdWRDcmVkZW50aWFscygpCiAgICBvYmplY3QgUHJlc2lnbmVkT25seSA6IENsb3VkQ3JlZGVudGlhbHMoKQp9Cg==
+package com.seeall.agent.core
+
+/** Destino de storage pertencente ao cliente (S3-compatible). */
+data class CloudTarget(
+    val provider: CloudProvider,
+    val endpoint: String,
+    val bucket: String,
+    val region: String? = null,
+    val prefix: String = "seeall/",
+    val credentials: CloudCredentials,
+    val retentionDays: Int = 30,
+    val serverSideEncryption: Boolean = true
+)
+
+enum class CloudProvider { AWS_S3, CLOUDFLARE_R2, BACKBLAZE_B2, MINIO, CUSTOM_S3 }
+
+sealed class CloudCredentials {
+    data class AccessKey(val accessKeyId: String, val secretAccessKey: String) : CloudCredentials()
+    data class SessionToken(val accessKeyId: String, val secretAccessKey: String, val token: String) : CloudCredentials()
+    object PresignedOnly : CloudCredentials()
+}
