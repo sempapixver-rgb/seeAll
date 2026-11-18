@@ -1,1 +1,24 @@
-cGFja2FnZSBjb20uc2VlYWxsLmFnZW50LmNvcmUKCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5GbG93CgovKiogQ29udHJhdG8gZGUgY29uZXjDo28gY29tIHVtYSBjw6JtZXJhLCBpbmRlcGVuZGVudGUgZG8gcHJvdG9jb2xvLiAqLwppbnRlcmZhY2UgQ2FtZXJhQ29ubmVjdGlvbiB7CiAgICB2YWwgZGV2aWNlOiBDYW1lcmFEZXZpY2UKICAgIHZhbCBzdGF0ZTogRmxvdzxDb25uZWN0aW9uU3RhdGU+CgogICAgc3VzcGVuZCBmdW4gY29ubmVjdCgpOiBSZXN1bHQ8VW5pdD4KICAgIHN1c3BlbmQgZnVuIGRpc2Nvbm5lY3QoKQoKICAgIHN1c3BlbmQgZnVuIHN0cmVhbXMoKTogUmVzdWx0PExpc3Q8U3RyZWFtRGVzY3JpcHRvcj4+CiAgICBzdXNwZW5kIGZ1biBzbmFwc2hvdCgpOiBSZXN1bHQ8Qnl0ZUFycmF5PgoKICAgIHN1c3BlbmQgZnVuIG9wZW5MaXZlKGRlc2NyaXB0b3I6IFN0cmVhbURlc2NyaXB0b3IpOiBSZXN1bHQ8TGl2ZVNlc3Npb24+CiAgICBzdXNwZW5kIGZ1biBvcGVuUmVjb3JkaW5nKGRlc2NyaXB0b3I6IFN0cmVhbURlc2NyaXB0b3IsIGZyb206IExvbmcsIHRvOiBMb25nKTogUmVzdWx0PExpdmVTZXNzaW9uPgoKICAgIHN1c3BlbmQgZnVuIHB0eihjb21tYW5kOiBQdHpDb21tYW5kKTogUmVzdWx0PFVuaXQ+ID0gUmVzdWx0LmZhaWx1cmUoVW5zdXBwb3J0ZWRPcGVyYXRpb25FeGNlcHRpb24oKSkKfQoKZW51bSBjbGFzcyBDb25uZWN0aW9uU3RhdGUgeyBESVNDT05ORUNURUQsIENPTk5FQ1RJTkcsIENPTk5FQ1RFRCwgUkVDT05ORUNUSU5HLCBFUlJPUiB9CgplbnVtIGNsYXNzIFB0ekNvbW1hbmQgeyBVUCwgRE9XTiwgTEVGVCwgUklHSFQsIFpPT01fSU4sIFpPT01fT1VULCBTVE9QIH0K
+package com.seeall.agent.core
+
+import kotlinx.coroutines.flow.Flow
+
+/** Contrato de conexão com uma câmera, independente do protocolo. */
+interface CameraConnection {
+    val device: CameraDevice
+    val state: Flow<ConnectionState>
+
+    suspend fun connect(): Result<Unit>
+    suspend fun disconnect()
+
+    suspend fun streams(): Result<List<StreamDescriptor>>
+    suspend fun snapshot(): Result<ByteArray>
+
+    suspend fun openLive(descriptor: StreamDescriptor): Result<LiveSession>
+    suspend fun openRecording(descriptor: StreamDescriptor, from: Long, to: Long): Result<LiveSession>
+
+    suspend fun ptz(command: PtzCommand): Result<Unit> = Result.failure(UnsupportedOperationException())
+}
+
+enum class ConnectionState { DISCONNECTED, CONNECTING, CONNECTED, RECONNECTING, ERROR }
+
+enum class PtzCommand { UP, DOWN, LEFT, RIGHT, ZOOM_IN, ZOOM_OUT, STOP }
