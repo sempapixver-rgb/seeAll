@@ -1,1 +1,111 @@
-cGFja2FnZSBjb20uc2VlYWxsLmFnZW50LmNhbWVyYQoKaW1wb3J0IG9raHR0cDMuTWVkaWFUeXBlLkNvbXBhbmlvbi50b01lZGlhVHlwZQppbXBvcnQgb2todHRwMy5Pa0h0dHBDbGllbnQKaW1wb3J0IG9raHR0cDMuUmVxdWVzdAppbXBvcnQgb2todHRwMy5SZXF1ZXN0Qm9keS5Db21wYW5pb24udG9SZXF1ZXN0Qm9keQppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuVGltZVVuaXQKCi8qKiBDbGllbnRlIFNPQVAgbcOtbmltbyBwYXJhIE9OVklGIERldmljZSArIE1lZGlhLiAqLwpjbGFzcyBPbnZpZkNsaWVudCgKICAgIHByaXZhdGUgdmFsIHhhZGRyOiBTdHJpbmcsCiAgICBwcml2YXRlIHZhbCB1c2VybmFtZTogU3RyaW5nPywKICAgIHByaXZhdGUgdmFsIHBhc3N3b3JkOiBTdHJpbmc/LAogICAgcHJpdmF0ZSB2YWwgaHR0cDogT2tIdHRwQ2xpZW50ID0gT2tIdHRwQ2xpZW50LkJ1aWxkZXIoKQogICAgICAgIC5jb25uZWN0VGltZW91dCg1LCBUaW1lVW5pdC5TRUNPTkRTKQogICAgICAgIC5yZWFkVGltZW91dCgxMCwgVGltZVVuaXQuU0VDT05EUykKICAgICAgICAuYnVpbGQoKQopIHsKICAgIHByaXZhdGUgdmFsIHNvYXBNZWRpYVR5cGUgPSAiYXBwbGljYXRpb24vc29hcCt4bWw7IGNoYXJzZXQ9dXRmLTgiLnRvTWVkaWFUeXBlKCkKCiAgICBkYXRhIGNsYXNzIERldmljZUluZm8oCiAgICAgICAgdmFsIG1hbnVmYWN0dXJlcjogU3RyaW5nPywKICAgICAgICB2YWwgbW9kZWw6IFN0cmluZz8sCiAgICAgICAgdmFsIGZpcm13YXJlVmVyc2lvbjogU3RyaW5nPywKICAgICAgICB2YWwgc2VyaWFsTnVtYmVyOiBTdHJpbmc/CiAgICApCgogICAgZGF0YSBjbGFzcyBQcm9maWxlKAogICAgICAgIHZhbCB0b2tlbjogU3RyaW5nLAogICAgICAgIHZhbCBuYW1lOiBTdHJpbmc/LAogICAgICAgIHZhbCBlbmNvZGluZzogU3RyaW5nPwogICAgKQoKICAgIGRhdGEgY2xhc3MgU3RyZWFtSW5mbyh2YWwgdXJpOiBTdHJpbmcpCgogICAgc3VzcGVuZCBmdW4gZ2V0RGV2aWNlSW5mb3JtYXRpb24oKTogRGV2aWNlSW5mbyA9IHNvYXAoCiAgICAgICAgIiIiPHRkczpHZXREZXZpY2VJbmZvcm1hdGlvbi8+IiIiLAogICAgICAgICJodHRwOi8vd3d3Lm9udmlmLm9yZy92ZXIxMC9kZXZpY2Uvd3NkbC9HZXREZXZpY2VJbmZvcm1hdGlvbiIKICAgICkubGV0IHsgeG1sIC0+CiAgICAgICAgdmFsIHJvb3QgPSBwYXJzZVhtbCh4bWwpCiAgICAgICAgRGV2aWNlSW5mbygKICAgICAgICAgICAgbWFudWZhY3R1cmVyID0gcm9vdC5jaGlsZFRleHQoIk1hbnVmYWN0dXJlciIpLAogICAgICAgICAgICBtb2RlbCA9IHJvb3QuY2hpbGRUZXh0KCJNb2RlbCIpLAogICAgICAgICAgICBmaXJtd2FyZVZlcnNpb24gPSByb290LmNoaWxkVGV4dCgiRmlybXdhcmVWZXJzaW9uIiksCiAgICAgICAgICAgIHNlcmlhbE51bWJlciA9IHJvb3QuY2hpbGRUZXh0KCJTZXJpYWxOdW1iZXIiKQogICAgICAgICkKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBnZXRQcm9maWxlcygpOiBMaXN0PFByb2ZpbGU+ID0gc29hcCgKICAgICAgICAiIiI8dHJ0OkdldFByb2ZpbGVzLz4iIiIsCiAgICAgICAgImh0dHA6Ly93d3cub252aWYub3JnL3ZlcjEwL21lZGlhL3dzZGwvR2V0UHJvZmlsZXMiCiAgICApLmxldCB7IHhtbCAtPgogICAgICAgIHBhcnNlWG1sKHhtbCkuZGVzY2VuZGFudHMoIlByb2ZpbGVzIikubWFwIHsgbm9kZSAtPgogICAgICAgICAgICB2YWwgdG9rZW4gPSBub2RlLmdldEF0dHJpYnV0ZSgidG9rZW4iKS50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfQogICAgICAgICAgICAgICAgPzogbm9kZS5jaGlsZFRleHQoInRva2VuIikub3JFbXB0eSgpCiAgICAgICAgICAgIFByb2ZpbGUoCiAgICAgICAgICAgICAgICB0b2tlbiA9IHRva2VuLAogICAgICAgICAgICAgICAgbmFtZSA9IG5vZGUuY2hpbGRUZXh0KCJOYW1lIiksCiAgICAgICAgICAgICAgICBlbmNvZGluZyA9IG5vZGUuZGVzY2VuZGFudHMoIkVuY29kaW5nIikuZmlyc3RPck51bGwoKT8udGV4dENvbnRlbnQ/LnRyaW0oKQogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGdldFN0cmVhbVVyaShwcm9maWxlVG9rZW46IFN0cmluZyk6IFN0cmVhbUluZm8gewogICAgICAgIHZhbCBib2R5ID0gIiIiCiAgICAgICAgICAgIDx0cnQ6R2V0U3RyZWFtVXJpPgogICAgICAgICAgICAgIDx0cnQ6U3RyZWFtU2V0dXA+CiAgICAgICAgICAgICAgICA8dHQ6U3RyZWFtPlJUUCB1bmljYXN0PC90dDpTdHJlYW0+CiAgICAgICAgICAgICAgICA8dHQ6VHJhbnNwb3J0PgogICAgICAgICAgICAgICAgICA8dHQ6UHJvdG9jb2w+UlRTUDwvdHQ6UHJvdG9jb2w+CiAgICAgICAgICAgICAgICA8L3R0OlRyYW5zcG9ydD4KICAgICAgICAgICAgICA8L3RydDpTdHJlYW1TZXR1cD4KICAgICAgICAgICAgICA8dHJ0OlByb2ZpbGVUb2tlbj4ke2VzY2FwZVhtbChwcm9maWxlVG9rZW4pfTwvdHJ0OlByb2ZpbGVUb2tlbj4KICAgICAgICAgICAgPC90cnQ6R2V0U3RyZWFtVXJpPgogICAgICAgICIiIi50cmltSW5kZW50KCkKICAgICAgICByZXR1cm4gc29hcChib2R5LCAiaHR0cDovL3d3dy5vbnZpZi5vcmcvdmVyMTAvbWVkaWEvd3NkbC9HZXRTdHJlYW1VcmkiKS5sZXQgeyB4bWwgLT4KICAgICAgICAgICAgdmFsIHVyaSA9IHBhcnNlWG1sKHhtbCkuZGVzY2VuZGFudHMoIlVyaSIpLmZpcnN0T3JOdWxsKCk/LnRleHRDb250ZW50Py50cmltKCkKICAgICAgICAgICAgICAgID86IGVycm9yKCJPTlZJRiBHZXRTdHJlYW1Vcmkgc2VtIFVyaSIpCiAgICAgICAgICAgIFN0cmVhbUluZm8odXJpKQogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBnZXRTbmFwc2hvdFVyaShwcm9maWxlVG9rZW46IFN0cmluZyk6IFN0cmluZz8gPSB0cnkgewogICAgICAgIHZhbCBib2R5ID0gIiIiCiAgICAgICAgICAgIDx0cnQ6R2V0U25hcHNob3RVcmk+CiAgICAgICAgICAgICAgPHRydDpQcm9maWxlVG9rZW4+JHtlc2NhcGVYbWwocHJvZmlsZVRva2VuKX08L3RydDpQcm9maWxlVG9rZW4+CiAgICAgICAgICAgIDwvdHJ0OkdldFNuYXBzaG90VXJpPgogICAgICAgICIiIi50cmltSW5kZW50KCkKICAgICAgICBzb2FwKGJvZHksICJodHRwOi8vd3d3Lm9udmlmLm9yZy92ZXIxMC9tZWRpYS93c2RsL0dldFNuYXBzaG90VXJpIikubGV0IHsgeG1sIC0+CiAgICAgICAgICAgIHBhcnNlWG1sKHhtbCkuZGVzY2VuZGFudHMoIlVyaSIpLmZpcnN0T3JOdWxsKCk/LnRleHRDb250ZW50Py50cmltKCkKICAgICAgICB9CiAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICBudWxsCiAgICB9CgogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biBzb2FwKGJvZHk6IFN0cmluZywgYWN0aW9uOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHZhbCBoZWFkZXIgPSBpZiAodXNlcm5hbWUgIT0gbnVsbCAmJiBwYXNzd29yZCAhPSBudWxsKSB3c3NlVXNlcm5hbWVUb2tlbih1c2VybmFtZSwgcGFzc3dvcmQpIGVsc2UgIiIKICAgICAgICB2YWwgcmVxdWVzdCA9IFJlcXVlc3QuQnVpbGRlcigpCiAgICAgICAgICAgIC51cmwoeGFkZHIpCiAgICAgICAgICAgIC5hZGRIZWFkZXIoIkNvbnRlbnQtVHlwZSIsICJhcHBsaWNhdGlvbi9zb2FwK3htbDsgY2hhcnNldD11dGYtOCIpCiAgICAgICAgICAgIC5hZGRIZWFkZXIoIlNPQVBBY3Rpb24iLCAiXCIkYWN0aW9uXCIiKQogICAgICAgICAgICAucG9zdChzb2FwRW52ZWxvcGUoYm9keSwgaGVhZGVyKS50b1JlcXVlc3RCb2R5KHNvYXBNZWRpYVR5cGUpKQogICAgICAgICAgICAuYnVpbGQoKQogICAgICAgIGh0dHAubmV3Q2FsbChyZXF1ZXN0KS5leGVjdXRlKCkudXNlIHsgcmVzcG9uc2UgLT4KICAgICAgICAgICAgdmFsIHRleHQgPSByZXNwb25zZS5ib2R5Py5zdHJpbmcoKS5vckVtcHR5KCkKICAgICAgICAgICAgaWYgKCFyZXNwb25zZS5pc1N1Y2Nlc3NmdWwpIGVycm9yKCJPTlZJRiBTT0FQICR7cmVzcG9uc2UuY29kZX06ICR7dGV4dC50YWtlKDMwMCl9IikKICAgICAgICAgICAgaWYgKHRleHQuY29udGFpbnMoInM6RmF1bHQiLCBpZ25vcmVDYXNlID0gdHJ1ZSkpIGVycm9yKCJPTlZJRiBGYXVsdDogJHt0ZXh0LnRha2UoMzAwKX0iKQogICAgICAgICAgICByZXR1cm4gdGV4dAogICAgICAgIH0KICAgIH0KfQo=
+package com.seeall.agent.camera
+
+import okhttp3.MediaType.Companion.toMediaType
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import okhttp3.RequestBody.Companion.toRequestBody
+import java.util.concurrent.TimeUnit
+
+/** Cliente SOAP mínimo para ONVIF Device + Media. */
+class OnvifClient(
+    private val xaddr: String,
+    private val username: String?,
+    private val password: String?,
+    private val http: OkHttpClient = OkHttpClient.Builder()
+        .connectTimeout(5, TimeUnit.SECONDS)
+        .readTimeout(10, TimeUnit.SECONDS)
+        .build()
+) {
+    private val soapMediaType = "application/soap+xml; charset=utf-8".toMediaType()
+
+    data class DeviceInfo(
+        val manufacturer: String?,
+        val model: String?,
+        val firmwareVersion: String?,
+        val serialNumber: String?
+    )
+
+    data class Profile(
+        val token: String,
+        val name: String?,
+        val encoding: String?
+    )
+
+    data class StreamInfo(val uri: String)
+
+    suspend fun getDeviceInformation(): DeviceInfo = soap(
+        """<tds:GetDeviceInformation/>""",
+        "http://www.onvif.org/ver10/device/wsdl/GetDeviceInformation"
+    ).let { xml ->
+        val root = parseXml(xml)
+        DeviceInfo(
+            manufacturer = root.childText("Manufacturer"),
+            model = root.childText("Model"),
+            firmwareVersion = root.childText("FirmwareVersion"),
+            serialNumber = root.childText("SerialNumber")
+        )
+    }
+
+    suspend fun getProfiles(): List<Profile> = soap(
+        """<trt:GetProfiles/>""",
+        "http://www.onvif.org/ver10/media/wsdl/GetProfiles"
+    ).let { xml ->
+        parseXml(xml).descendants("Profiles").map { node ->
+            val token = node.getAttribute("token").takeIf { it.isNotBlank() }
+                ?: node.childText("token").orEmpty()
+            Profile(
+                token = token,
+                name = node.childText("Name"),
+                encoding = node.descendants("Encoding").firstOrNull()?.textContent?.trim()
+            )
+        }
+    }
+
+    suspend fun getStreamUri(profileToken: String): StreamInfo {
+        val body = """
+            <trt:GetStreamUri>
+              <trt:StreamSetup>
+                <tt:Stream>RTP unicast</tt:Stream>
+                <tt:Transport>
+                  <tt:Protocol>RTSP</tt:Protocol>
+                </tt:Transport>
+              </trt:StreamSetup>
+              <trt:ProfileToken>${escapeXml(profileToken)}</trt:ProfileToken>
+            </trt:GetStreamUri>
+        """.trimIndent()
+        return soap(body, "http://www.onvif.org/ver10/media/wsdl/GetStreamUri").let { xml ->
+            val uri = parseXml(xml).descendants("Uri").firstOrNull()?.textContent?.trim()
+                ?: error("ONVIF GetStreamUri sem Uri")
+            StreamInfo(uri)
+        }
+    }
+
+    suspend fun getSnapshotUri(profileToken: String): String? = try {
+        val body = """
+            <trt:GetSnapshotUri>
+              <trt:ProfileToken>${escapeXml(profileToken)}</trt:ProfileToken>
+            </trt:GetSnapshotUri>
+        """.trimIndent()
+        soap(body, "http://www.onvif.org/ver10/media/wsdl/GetSnapshotUri").let { xml ->
+            parseXml(xml).descendants("Uri").firstOrNull()?.textContent?.trim()
+        }
+    } catch (_: Exception) {
+        null
+    }
+
+    private suspend fun soap(body: String, action: String): String {
+        val header = if (username != null && password != null) wsseUsernameToken(username, password) else ""
+        val request = Request.Builder()
+            .url(xaddr)
+            .addHeader("Content-Type", "application/soap+xml; charset=utf-8")
+            .addHeader("SOAPAction", "\"$action\"")
+            .post(soapEnvelope(body, header).toRequestBody(soapMediaType))
+            .build()
+        http.newCall(request).execute().use { response ->
+            val text = response.body?.string().orEmpty()
+            if (!response.isSuccessful) error("ONVIF SOAP ${response.code}: ${text.take(300)}")
+            if (text.contains("s:Fault", ignoreCase = true)) error("ONVIF Fault: ${text.take(300)}")
+            return text
+        }
+    }
+}
