@@ -1,1 +1,93 @@
-cGFja2FnZSBjb20uc2VlYWxsLmFnZW50CgppbXBvcnQgYW5kcm9pZC5hcHAuQWxlcnREaWFsb2cKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBhbmRyb2lkLm5ldC53aWZpLldpZmlNYW5hZ2VyCmltcG9ydCBhbmRyb2lkLm9zLkJ1bmRsZQppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXcKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkJ1dHRvbgppbXBvcnQgYW5kcm9pZC53aWRnZXQuRWRpdFRleHQKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkxpbmVhckxheW91dAppbXBvcnQgYW5kcm9pZC53aWRnZXQuVGV4dFZpZXcKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LlRvYXN0CmltcG9ydCBhbmRyb2lkeC5hcHBjb21wYXQuYXBwLkFwcENvbXBhdEFjdGl2aXR5CmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUubGlmZWN5Y2xlU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKCmNsYXNzIE1haW5BY3Rpdml0eSA6IEFwcENvbXBhdEFjdGl2aXR5KCkgewogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgc3RhdHVzVGV4dDogVGV4dFZpZXcKICAgIHByaXZhdGUgbGF0ZWluaXQgdmFyIGNhbWVyYUxpc3Q6IExpbmVhckxheW91dAogICAgcHJpdmF0ZSB2YWwgZGlzY292ZXJ5IGJ5IGxhenkgewogICAgICAgIE9udmlmRGlzY292ZXJ5KGFwcGxpY2F0aW9uQ29udGV4dC5nZXRTeXN0ZW1TZXJ2aWNlKENvbnRleHQuV0lGSV9TRVJWSUNFKSBhcz8gV2lmaU1hbmFnZXIpCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIG9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZTogQnVuZGxlPykgewogICAgICAgIHN1cGVyLm9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZSkKICAgICAgICBzZXRDb250ZW50VmlldyhSLmxheW91dC5hY3Rpdml0eV9tYWluKQoKICAgICAgICBzdGF0dXNUZXh0ID0gZmluZFZpZXdCeUlkKFIuaWQuc3RhdHVzVGV4dCkKICAgICAgICBjYW1lcmFMaXN0ID0gZmluZFZpZXdCeUlkKFIuaWQuY2FtZXJhTGlzdCkKCiAgICAgICAgZmluZFZpZXdCeUlkPEJ1dHRvbj4oUi5pZC5kaXNjb3ZlckJ1dHRvbikuc2V0T25DbGlja0xpc3RlbmVyIHsgZGlzY292ZXIoKSB9CiAgICAgICAgZmluZFZpZXdCeUlkPEJ1dHRvbj4oUi5pZC5hZGRNYW51YWxCdXR0b24pLnNldE9uQ2xpY2tMaXN0ZW5lciB7IGFkZE1hbnVhbCgpIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBkaXNjb3ZlcigpIHsKICAgICAgICBzdGF0dXNUZXh0LnRleHQgPSAiRGlzY292ZXJpbmcgY2FtZXJhcyBvbiB0aGUgbmV0d29yay4uLiIKICAgICAgICBsaWZlY3ljbGVTY29wZS5sYXVuY2ggewogICAgICAgICAgICB2YWwgZm91bmQgPSBkaXNjb3ZlcnkuZGlzY292ZXIoKQogICAgICAgICAgICBjYW1lcmFMaXN0LnJlbW92ZUFsbFZpZXdzKCkKICAgICAgICAgICAgaWYgKGZvdW5kLmlzRW1wdHkoKSkgewogICAgICAgICAgICAgICAgc3RhdHVzVGV4dC50ZXh0ID0gZ2V0U3RyaW5nKFIuc3RyaW5nLm5vX2NhbWVyYXMpCiAgICAgICAgICAgICAgICByZXR1cm5AbGF1bmNoCiAgICAgICAgICAgIH0KICAgICAgICAgICAgc3RhdHVzVGV4dC50ZXh0ID0gIkZvdW5kICR7Zm91bmQuc2l6ZX0gY2FtZXJhKHMpIgogICAgICAgICAgICBmb3VuZC5mb3JFYWNoIHsgY2FtIC0+IGFkZENhbWVyYVJvdyhjYW0ubmFtZSwgY2FtLmhvc3QsICJydHNwOi8vJHtjYW0uaG9zdH06NTU0LyIpIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYWRkTWFudWFsKCkgewogICAgICAgIHZhbCBpbnB1dCA9IEVkaXRUZXh0KHRoaXMpLmFwcGx5IHsgaGludCA9ICJydHNwOi8vMTkyLjE2OC4xLjEwOjU1NC9zdHJlYW0xIiB9CiAgICAgICAgQWxlcnREaWFsb2cuQnVpbGRlcih0aGlzKQogICAgICAgICAgICAuc2V0VGl0bGUoIkFkZCBSVFNQIGNhbWVyYSIpCiAgICAgICAgICAgIC5zZXRWaWV3KGlucHV0KQogICAgICAgICAgICAuc2V0UG9zaXRpdmVCdXR0b24oIkFkZCIpIHsgXywgXyAtPgogICAgICAgICAgICAgICAgdmFsIHVybCA9IGlucHV0LnRleHQudG9TdHJpbmcoKS50cmltKCkKICAgICAgICAgICAgICAgIGlmICh1cmwuc3RhcnRzV2l0aCgicnRzcDovLyIpKSBhZGRDYW1lcmFSb3coIk1hbnVhbCBjYW1lcmEiLCB1cmwsIHVybCkKICAgICAgICAgICAgICAgIGVsc2UgVG9hc3QubWFrZVRleHQodGhpcywgIlVzZSBydHNwOi8vLi4uIiwgVG9hc3QuTEVOR1RIX1NIT1JUKS5zaG93KCkKICAgICAgICAgICAgfQogICAgICAgICAgICAuc2V0TmVnYXRpdmVCdXR0b24oIkNhbmNlbCIsIG51bGwpCiAgICAgICAgICAgIC5zaG93KCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBhZGRDYW1lcmFSb3cobmFtZTogU3RyaW5nLCBob3N0OiBTdHJpbmcsIHVyaTogU3RyaW5nKSB7CiAgICAgICAgdmFsIHJvdyA9IFRleHRWaWV3KHRoaXMpLmFwcGx5IHsKICAgICAgICAgICAgdGV4dCA9ICIkbmFtZVxuJHVyaSIKICAgICAgICAgICAgdGV4dFNpemUgPSAxNmYKICAgICAgICAgICAgc2V0UGFkZGluZygxMiwgMjAsIDEyLCAyMCkKICAgICAgICAgICAgc2V0QmFja2dyb3VuZFJlc291cmNlKGFuZHJvaWQuUi5kcmF3YWJsZS5saXN0X3NlbGVjdG9yX2JhY2tncm91bmQpCiAgICAgICAgICAgIHNldE9uQ2xpY2tMaXN0ZW5lciB7IGFza0NyZWRlbnRpYWxzKG5hbWUsIHVyaSkgfQogICAgICAgIH0KICAgICAgICBjYW1lcmFMaXN0LmFkZFZpZXcocm93KQogICAgfQoKICAgIHByaXZhdGUgZnVuIGFza0NyZWRlbnRpYWxzKG5hbWU6IFN0cmluZywgdXJpOiBTdHJpbmcpIHsKICAgICAgICB2YWwgdmlldyA9IGxheW91dEluZmxhdGVyLmluZmxhdGUoUi5sYXlvdXQuZGlhbG9nX2NyZWRlbnRpYWxzLCBudWxsKQogICAgICAgIHZhbCB1c2VyID0gdmlldy5maW5kVmlld0J5SWQ8RWRpdFRleHQ+KFIuaWQudXNlcklucHV0KQogICAgICAgIHZhbCBwYXNzID0gdmlldy5maW5kVmlld0J5SWQ8RWRpdFRleHQ+KFIuaWQucGFzc0lucHV0KQogICAgICAgIEFsZXJ0RGlhbG9nLkJ1aWxkZXIodGhpcykKICAgICAgICAgICAgLnNldFRpdGxlKCJDb25uZWN0IHRvICRuYW1lIikKICAgICAgICAgICAgLnNldFZpZXcodmlldykKICAgICAgICAgICAgLnNldFBvc2l0aXZlQnV0dG9uKCJDb25uZWN0IikgeyBfLCBfIC0+CiAgICAgICAgICAgICAgICB2YWwgaW50ZW50ID0gSW50ZW50KHRoaXMsIENhbWVyYUFjdGl2aXR5OjpjbGFzcy5qYXZhKS5hcHBseSB7CiAgICAgICAgICAgICAgICAgICAgcHV0RXh0cmEoInVyaSIsIHVyaSkKICAgICAgICAgICAgICAgICAgICBwdXRFeHRyYSgidXNlciIsIHVzZXIudGV4dC50b1N0cmluZygpKQogICAgICAgICAgICAgICAgICAgIHB1dEV4dHJhKCJwYXNzIiwgcGFzcy50ZXh0LnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBzdGFydEFjdGl2aXR5KGludGVudCkKICAgICAgICAgICAgfQogICAgICAgICAgICAuc2V0TmVnYXRpdmVCdXR0b24oIkNhbmNlbCIsIG51bGwpCiAgICAgICAgICAgIC5zaG93KCkKICAgIH0KfQo=
+package com.seeall.agent
+
+import android.app.AlertDialog
+import android.content.Context
+import android.content.Intent
+import android.net.wifi.WifiManager
+import android.os.Bundle
+import android.view.View
+import android.widget.Button
+import android.widget.EditText
+import android.widget.LinearLayout
+import android.widget.TextView
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.launch
+
+class MainActivity : AppCompatActivity() {
+    private lateinit var statusText: TextView
+    private lateinit var cameraList: LinearLayout
+    private val discovery by lazy {
+        OnvifDiscovery(applicationContext.getSystemService(Context.WIFI_SERVICE) as? WifiManager)
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        statusText = findViewById(R.id.statusText)
+        cameraList = findViewById(R.id.cameraList)
+
+        findViewById<Button>(R.id.discoverButton).setOnClickListener { discover() }
+        findViewById<Button>(R.id.addManualButton).setOnClickListener { addManual() }
+    }
+
+    private fun discover() {
+        statusText.text = "Discovering cameras on the network..."
+        lifecycleScope.launch {
+            val found = discovery.discover()
+            cameraList.removeAllViews()
+            if (found.isEmpty()) {
+                statusText.text = getString(R.string.no_cameras)
+                return@launch
+            }
+            statusText.text = "Found ${found.size} camera(s)"
+            found.forEach { cam -> addCameraRow(cam.name, cam.host, "rtsp://${cam.host}:554/") }
+        }
+    }
+
+    private fun addManual() {
+        val input = EditText(this).apply { hint = "rtsp://192.168.1.10:554/stream1" }
+        AlertDialog.Builder(this)
+            .setTitle("Add RTSP camera")
+            .setView(input)
+            .setPositiveButton("Add") { _, _ ->
+                val url = input.text.toString().trim()
+                if (url.startsWith("rtsp://")) addCameraRow("Manual camera", url, url)
+                else Toast.makeText(this, "Use rtsp://...", Toast.LENGTH_SHORT).show()
+            }
+            .setNegativeButton("Cancel", null)
+            .show()
+    }
+
+    private fun addCameraRow(name: String, host: String, uri: String) {
+        val row = TextView(this).apply {
+            text = "$name\n$uri"
+            textSize = 16f
+            setPadding(12, 20, 12, 20)
+            setBackgroundResource(android.R.drawable.list_selector_background)
+            setOnClickListener { askCredentials(name, uri) }
+        }
+        cameraList.addView(row)
+    }
+
+    private fun askCredentials(name: String, uri: String) {
+        val view = layoutInflater.inflate(R.layout.dialog_credentials, null)
+        val user = view.findViewById<EditText>(R.id.userInput)
+        val pass = view.findViewById<EditText>(R.id.passInput)
+        AlertDialog.Builder(this)
+            .setTitle("Connect to $name")
+            .setView(view)
+            .setPositiveButton("Connect") { _, _ ->
+                val intent = Intent(this, CameraActivity::class.java).apply {
+                    putExtra("uri", uri)
+                    putExtra("user", user.text.toString())
+                    putExtra("pass", pass.text.toString())
+                }
+                startActivity(intent)
+            }
+            .setNegativeButton("Cancel", null)
+            .show()
+    }
+}
