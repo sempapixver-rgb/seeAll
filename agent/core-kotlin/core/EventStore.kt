@@ -1,1 +1,19 @@
-cGFja2FnZSBjb20uc2VlYWxsLmFnZW50LmNvcmUKCi8qKiBBcm1hemVuYW1lbnRvIGUgYnVzY2EgZGUgZXZlbnRvcyBkZSBkZXRlY8Onw6NvLiAqLwppbnRlcmZhY2UgRXZlbnRTdG9yZSB7CiAgICBzdXNwZW5kIGZ1biBzYXZlKGV2ZW50OiBEZXRlY3Rpb25FdmVudCk6IFJlc3VsdDxVbml0PgogICAgc3VzcGVuZCBmdW4gc2VhcmNoKHF1ZXJ5OiBFdmVudFF1ZXJ5KTogUmVzdWx0PExpc3Q8RGV0ZWN0aW9uRXZlbnQ+PgogICAgc3VzcGVuZCBmdW4gY291bnRCeVR5cGUoY2FtZXJhSWQ6IFN0cmluZywgZnJvbTogTG9uZywgdG86IExvbmcpOiBNYXA8RGV0ZWN0aW9uVHlwZSwgSW50PgogICAgc3VzcGVuZCBmdW4gcHVyZ2VCZWZvcmUodGltZXN0YW1wTXM6IExvbmcpOiBSZXN1bHQ8SW50Pgp9CgpkYXRhIGNsYXNzIEV2ZW50UXVlcnkoCiAgICB2YWwgY2FtZXJhSWQ6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHR5cGVzOiBTZXQ8RGV0ZWN0aW9uVHlwZT4gPSBlbXB0eVNldCgpLAogICAgdmFsIGZyb206IExvbmc/ID0gbnVsbCwKICAgIHZhbCB0bzogTG9uZz8gPSBudWxsLAogICAgdmFsIG1pbkNvbmZpZGVuY2U6IEZsb2F0ID0gMGYsCiAgICB2YWwgbGltaXQ6IEludCA9IDEwMCwKICAgIHZhbCBjdXJzb3I6IFN0cmluZz8gPSBudWxsCikK
+package com.seeall.agent.core
+
+/** Armazenamento e busca de eventos de detecção. */
+interface EventStore {
+    suspend fun save(event: DetectionEvent): Result<Unit>
+    suspend fun search(query: EventQuery): Result<List<DetectionEvent>>
+    suspend fun countByType(cameraId: String, from: Long, to: Long): Map<DetectionType, Int>
+    suspend fun purgeBefore(timestampMs: Long): Result<Int>
+}
+
+data class EventQuery(
+    val cameraId: String? = null,
+    val types: Set<DetectionType> = emptySet(),
+    val from: Long? = null,
+    val to: Long? = null,
+    val minConfidence: Float = 0f,
+    val limit: Int = 100,
+    val cursor: String? = null
+)
