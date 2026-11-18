@@ -1,1 +1,17 @@
-cGFja2FnZSBjb20uc2VlYWxsLmFnZW50LmNvcmUKCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5GbG93CgovKiogRGVzY29iZXJ0YSBlIGNhZGFzdHJvIGRlIGPDom1lcmFzLiAqLwppbnRlcmZhY2UgQ2FtZXJhUmVnaXN0cnkgewogICAgdmFsIGRldmljZXM6IEZsb3c8TGlzdDxDYW1lcmFEZXZpY2U+PgoKICAgIHN1c3BlbmQgZnVuIGRpc2NvdmVyKHRpbWVvdXRNczogTG9uZyA9IDMwXzAwMCk6IFJlc3VsdDxMaXN0PENhbWVyYURldmljZT4+CiAgICBzdXNwZW5kIGZ1biBsaXN0KCk6IExpc3Q8Q2FtZXJhRGV2aWNlPgogICAgc3VzcGVuZCBmdW4gc2F2ZShkZXZpY2U6IENhbWVyYURldmljZSk6IFJlc3VsdDxVbml0PgogICAgc3VzcGVuZCBmdW4gcmVtb3ZlKGRldmljZUlkOiBTdHJpbmcpOiBSZXN1bHQ8VW5pdD4KICAgIHN1c3BlbmQgZnVuIGdldChkZXZpY2VJZDogU3RyaW5nKTogQ2FtZXJhRGV2aWNlPwoKICAgIC8qKiBGw6FicmljYSBkZSBjb25leMOjbyBwZWxvIHRyYW5zcG9ydGUgYXByb3ByaWFkby4gKi8KICAgIGZ1biBjb25uZWN0aW9uRm9yKGRldmljZTogQ2FtZXJhRGV2aWNlKTogQ2FtZXJhQ29ubmVjdGlvbgp9Cg==
+package com.seeall.agent.core
+
+import kotlinx.coroutines.flow.Flow
+
+/** Descoberta e cadastro de câmeras. */
+interface CameraRegistry {
+    val devices: Flow<List<CameraDevice>>
+
+    suspend fun discover(timeoutMs: Long = 30_000): Result<List<CameraDevice>>
+    suspend fun list(): List<CameraDevice>
+    suspend fun save(device: CameraDevice): Result<Unit>
+    suspend fun remove(deviceId: String): Result<Unit>
+    suspend fun get(deviceId: String): CameraDevice?
+
+    /** Fábrica de conexão pelo transporte apropriado. */
+    fun connectionFor(device: CameraDevice): CameraConnection
+}
