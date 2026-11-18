@@ -1,1 +1,66 @@
-cGFja2FnZSBjb20uc2VlYWxsLmFnZW50CgppbXBvcnQgYW5kcm9pZC5uZXQud2lmaS5XaWZpTWFuYWdlcgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IGphdmEubmV0LkRhdGFncmFtUGFja2V0CmltcG9ydCBqYXZhLm5ldC5EYXRhZ3JhbVNvY2tldAppbXBvcnQgamF2YS5uZXQuSW5ldEFkZHJlc3MKCmRhdGEgY2xhc3MgRm91bmRDYW1lcmEodmFsIG5hbWU6IFN0cmluZywgdmFsIGhvc3Q6IFN0cmluZywgdmFsIHhhZGRyOiBTdHJpbmcpCgpjbGFzcyBPbnZpZkRpc2NvdmVyeShwcml2YXRlIHZhbCB3aWZpTWFuYWdlcjogV2lmaU1hbmFnZXI/KSB7CiAgICBwcml2YXRlIHZhbCBtdWx0aWNhc3QgPSBJbmV0QWRkcmVzcy5nZXRCeU5hbWUoIjIzOS4yNTUuMjU1LjI1MCIpCiAgICBwcml2YXRlIHZhbCBwb3J0ID0gMzcwMgoKICAgIHN1c3BlbmQgZnVuIGRpc2NvdmVyKHRpbWVvdXRNczogSW50ID0gNDAwMCk6IExpc3Q8Rm91bmRDYW1lcmE+ID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICB2YWwgbG9jayA9IHdpZmlNYW5hZ2VyPy5jcmVhdGVNdWx0aWNhc3RMb2NrKCJzZWVhbGwtb252aWYiKT8uYXBwbHkgeyBhY3F1aXJlKCkgfQogICAgICAgIHZhbCByZXN1bHRzID0gTGlua2VkSGFzaE1hcDxTdHJpbmcsIEZvdW5kQ2FtZXJhPigpCiAgICAgICAgdmFsIHNvY2tldCA9IERhdGFncmFtU29ja2V0KG51bGwpLmFwcGx5IHsgcmV1c2VBZGRyZXNzID0gdHJ1ZTsgYnJvYWRjYXN0ID0gdHJ1ZSB9CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIHByb2JlID0gIiIiPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGU6UHJvYmUgeG1sbnM6ZT0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNC9kaXNjb3ZlcnkiPgogIDxlOlR5cGVzPnRkczpEZXZpY2U8L2U6VHlwZXM+CiAgPGU6U2NvcGVzPm9udmlmOi8vd3d3Lm9udmlmLm9yZy90eXBlPC9lOlNjb3Blcz4KPC9lOlByb2JlPiIiIi50cmltSW5kZW50KCkKICAgICAgICAgICAgdmFsIGJ5dGVzID0gcHJvYmUudG9CeXRlQXJyYXkoQ2hhcnNldHMuVVRGXzgpCiAgICAgICAgICAgIHZhbCBwYWNrZXQgPSBEYXRhZ3JhbVBhY2tldChieXRlcywgYnl0ZXMuc2l6ZSwgbXVsdGljYXN0LCBwb3J0KQogICAgICAgICAgICB2YWwgYnVmZmVyID0gQnl0ZUFycmF5KDE2Mzg0KQoKICAgICAgICAgICAgcmVwZWF0KDIpIHsKICAgICAgICAgICAgICAgIHNvY2tldC5zZW5kKHBhY2tldCkKICAgICAgICAgICAgICAgIHZhbCBkZWFkbGluZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpICsgdGltZW91dE1zCiAgICAgICAgICAgICAgICB3aGlsZSAoU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkgPCBkZWFkbGluZSkgewogICAgICAgICAgICAgICAgICAgIHNvY2tldC5zb1RpbWVvdXQgPSBtYXhPZigyMDAsIChkZWFkbGluZSAtIFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpKS50b0ludCgpKQogICAgICAgICAgICAgICAgICAgIHZhbCByZXNwb25zZSA9IERhdGFncmFtUGFja2V0KGJ1ZmZlciwgYnVmZmVyLnNpemUpCiAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgc29ja2V0LnJlY2VpdmUocmVzcG9uc2UpCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCB4bWwgPSBTdHJpbmcocmVzcG9uc2UuZGF0YSwgcmVzcG9uc2Uub2Zmc2V0LCByZXNwb25zZS5sZW5ndGgsIENoYXJzZXRzLlVURl84KQogICAgICAgICAgICAgICAgICAgICAgICBwYXJzZSh4bWwsIHJlc3BvbnNlLmFkZHJlc3MuaG9zdEFkZHJlc3MpPy5sZXQgeyByZXN1bHRzW2l0LnhhZGRyXSA9IGl0IH0KICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChfOiBqYXZhLm5ldC5Tb2NrZXRUaW1lb3V0RXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgc29ja2V0LmNsb3NlKCkKICAgICAgICAgICAgdHJ5IHsgbG9jaz8ucmVsZWFzZSgpIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikge30KICAgICAgICB9CiAgICAgICAgcmVzdWx0cy52YWx1ZXMudG9MaXN0KCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBwYXJzZSh4bWw6IFN0cmluZywgZnJvbTogU3RyaW5nKTogRm91bmRDYW1lcmE/ID0gdHJ5IHsKICAgICAgICBpZiAoIXhtbC5jb250YWlucygiUHJvYmVNYXRjaCIsIGlnbm9yZUNhc2UgPSB0cnVlKSkgcmV0dXJuIG51bGwKICAgICAgICB2YWwgeGFkZHIgPSBleHRyYWN0KHhtbCwgIlhBZGRyIikgPzogcmV0dXJuIG51bGwKICAgICAgICB2YWwgc2NvcGVzID0gZXh0cmFjdCh4bWwsICJTY29wZXMiKS5vckVtcHR5KCkKICAgICAgICB2YWwgbmFtZSA9IHNjb3Blcy5zcGxpdCgiICIpCiAgICAgICAgICAgIC5maXJzdE9yTnVsbCB7IGl0LmNvbnRhaW5zKCIvbmFtZS8iLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfQogICAgICAgICAgICA/LnN1YnN0cmluZ0FmdGVyTGFzdCgiLyIpID86IGZyb20KICAgICAgICBGb3VuZENhbWVyYShuYW1lLCBmcm9tLCB4YWRkcikKICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgeyBudWxsIH0KCiAgICBwcml2YXRlIGZ1biBleHRyYWN0KHhtbDogU3RyaW5nLCB0YWc6IFN0cmluZyk6IFN0cmluZz8gewogICAgICAgIHZhbCByZWdleCA9IFJlZ2V4KCI8W14+XSokdGFnW14+XSo+KC4qPyk8L1tePl0qJHRhZ1tePl0qPiIsIFJlZ2V4T3B0aW9uLklHTk9SRV9DQVNFKQogICAgICAgIHJldHVybiByZWdleC5maW5kKHhtbCk/Lmdyb3VwVmFsdWVzPy5nZXQoMSk/LnRyaW0oKQogICAgfQp9Cg==
+package com.seeall.agent
+
+import android.net.wifi.WifiManager
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import java.net.DatagramPacket
+import java.net.DatagramSocket
+import java.net.InetAddress
+
+data class FoundCamera(val name: String, val host: String, val xaddr: String)
+
+class OnvifDiscovery(private val wifiManager: WifiManager?) {
+    private val multicast = InetAddress.getByName("239.255.255.250")
+    private val port = 3702
+
+    suspend fun discover(timeoutMs: Int = 4000): List<FoundCamera> = withContext(Dispatchers.IO) {
+        val lock = wifiManager?.createMulticastLock("seeall-onvif")?.apply { acquire() }
+        val results = LinkedHashMap<String, FoundCamera>()
+        val socket = DatagramSocket(null).apply { reuseAddress = true; broadcast = true }
+        try {
+            val probe = """<?xml version="1.0" encoding="UTF-8"?>
+<e:Probe xmlns:e="http://schemas.xmlsoap.org/ws/2005/04/discovery">
+  <e:Types>tds:Device</e:Types>
+  <e:Scopes>onvif://www.onvif.org/type</e:Scopes>
+</e:Probe>""".trimIndent()
+            val bytes = probe.toByteArray(Charsets.UTF_8)
+            val packet = DatagramPacket(bytes, bytes.size, multicast, port)
+            val buffer = ByteArray(16384)
+
+            repeat(2) {
+                socket.send(packet)
+                val deadline = System.currentTimeMillis() + timeoutMs
+                while (System.currentTimeMillis() < deadline) {
+                    socket.soTimeout = maxOf(200, (deadline - System.currentTimeMillis()).toInt())
+                    val response = DatagramPacket(buffer, buffer.size)
+                    try {
+                        socket.receive(response)
+                        val xml = String(response.data, response.offset, response.length, Charsets.UTF_8)
+                        parse(xml, response.address.hostAddress)?.let { results[it.xaddr] = it }
+                    } catch (_: java.net.SocketTimeoutException) {
+                        break
+                    }
+                }
+            }
+        } finally {
+            socket.close()
+            try { lock?.release() } catch (_: Exception) {}
+        }
+        results.values.toList()
+    }
+
+    private fun parse(xml: String, from: String): FoundCamera? = try {
+        if (!xml.contains("ProbeMatch", ignoreCase = true)) return null
+        val xaddr = extract(xml, "XAddr") ?: return null
+        val scopes = extract(xml, "Scopes").orEmpty()
+        val name = scopes.split(" ")
+            .firstOrNull { it.contains("/name/", ignoreCase = true) }
+            ?.substringAfterLast("/") ?: from
+        FoundCamera(name, from, xaddr)
+    } catch (_: Exception) { null }
+
+    private fun extract(xml: String, tag: String): String? {
+        val regex = Regex("<[^>]*$tag[^>]*>(.*?)</[^>]*$tag[^>]*>", RegexOption.IGNORE_CASE)
+        return regex.find(xml)?.groupValues?.get(1)?.trim()
+    }
+}
