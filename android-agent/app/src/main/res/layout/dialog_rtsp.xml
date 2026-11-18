@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="20dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Endereço RTSP" android:textSize="12sp" />
+    <EditText android:id="@+id/uriInput" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="rtsp://192.168.1.10:554/stream1"
+        android:inputType="textUri" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="A senha da câmera será pedida na próxima tela." android:textSize="12sp"
+        android:paddingTop="8dp" />
+</LinearLayout>
