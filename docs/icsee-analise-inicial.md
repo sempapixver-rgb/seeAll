@@ -39,6 +39,14 @@ App de câmeras IP/XMEye: login em conta, adicionar dispositivo por QR/SN/Wi-Fi/
 - ZXing / ML Kit: leitura de QR.
 - Vários SDKs de anúncio (AppLovin/AnyThink, Bigo, Vungle, Yandex, Pangle, Facebook, Firebase).
 
+## Inventário do pacote
+
+- 7 arquivos DEX (`classes.dex` a `classes7.dex`).
+- **Nenhuma biblioteca nativa `.so`** no APK — a lógica de mídia/P2P parece estar inteira em DEX.
+- 4.058 arquivos em `res/`, 90 em `assets/`.
+- Arquivos relevantes em `assets/`: `key/sdkkey.txt`, `key/qrkey.txt`, `language/*.txt`, `country/*.txt`, `network_debug_*.json`, `supplierconfig.json`, modelos TFLite do ML Kit para leitura de código de barras/QR.
+- `supplierconfig.json` traz apenas IDs de lojas chinesas (vivo, xiaomi, huawei, oppo).
+
 ## Limitações até agora
 
 - O apktool não está disponível no PATH, então as string resources ainda não foram decodificadas.
