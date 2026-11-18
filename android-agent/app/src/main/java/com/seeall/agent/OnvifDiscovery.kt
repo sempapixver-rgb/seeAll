@@ -49,15 +49,19 @@ class OnvifDiscovery(private val wifiManager: WifiManager?) {
         results.values.toList()
     }
 
-    private fun parse(xml: String, from: String): FoundCamera? = try {
+    private fun parse(xml: String, from: String): FoundCamera? {
         if (!xml.contains("ProbeMatch", ignoreCase = true)) return null
         val xaddr = extract(xml, "XAddr") ?: return null
         val scopes = extract(xml, "Scopes").orEmpty()
         val name = scopes.split(" ")
             .firstOrNull { it.contains("/name/", ignoreCase = true) }
             ?.substringAfterLast("/") ?: from
-        FoundCamera(name, from, xaddr)
-    } catch (_: Exception) { null }
+        return try {
+            FoundCamera(name, from, xaddr)
+        } catch (_: Exception) {
+            null
+        }
+    }
 
     private fun extract(xml: String, tag: String): String? {
         val regex = Regex("<[^>]*$tag[^>]*>(.*?)</[^>]*$tag[^>]*>", RegexOption.IGNORE_CASE)
