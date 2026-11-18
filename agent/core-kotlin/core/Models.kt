@@ -1,1 +1,62 @@
-cGFja2FnZSBjb20uc2VlYWxsLmFnZW50LmNvcmUKCi8qKiBJZGVudGlmaWNhw6fDo28gZGUgdW1hIGPDom1lcmEgZGVzY29iZXJ0YSBvdSBjYWRhc3RyYWRhLiAqLwpkYXRhIGNsYXNzIENhbWVyYURldmljZSgKICAgIHZhbCBpZDogU3RyaW5nLAogICAgdmFsIG5hbWU6IFN0cmluZywKICAgIHZhbCBtb2RlbDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgdWlkOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBob3N0OiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBwb3J0OiBJbnQ/ID0gbnVsbCwKICAgIHZhbCB0cmFuc3BvcnQ6IFRyYW5zcG9ydCwKICAgIHZhbCBjYXBhYmlsaXRpZXM6IFNldDxDYXBhYmlsaXR5PiA9IGVtcHR5U2V0KCkKKQoKZW51bSBjbGFzcyBUcmFuc3BvcnQgeyBPTlZJRiwgUlRTUCwgUDJQX1hNX0VZRSwgUDJQX1RVWUEsIFAyUF9UQVBPLCBNQU5VQUxfUlRTUCB9CgplbnVtIGNsYXNzIENhcGFiaWxpdHkgewogICAgTElWRV9NQUlOLCBMSVZFX1NVQiwgU05BUFNIT1QsIFBUWiwgQVVESU8sIFRXT19XQVlfQVVESU8sCiAgICBMT0NBTF9SRUNPUkQsIENMT1VEX1JFQ09SRCwgT05CT0FSRF9BSSwgTU9USU9OLCBQSVIsIExPV19MSUdIVAp9CgovKiogVW0gZmx1eG8gZGUgdsOtZGVvIGRpc3BvbsOtdmVsIG5hIGPDom1lcmEuICovCmRhdGEgY2xhc3MgU3RyZWFtRGVzY3JpcHRvcigKICAgIHZhbCB1cmk6IFN0cmluZywKICAgIHZhbCBwcm9maWxlOiBTdHJlYW1Qcm9maWxlLAogICAgdmFsIGNvZGVjOiBWaWRlb0NvZGVjID0gVmlkZW9Db2RlYy5IMjY0LAogICAgdmFsIHdpZHRoOiBJbnQ/ID0gbnVsbCwKICAgIHZhbCBoZWlnaHQ6IEludD8gPSBudWxsLAogICAgdmFsIGZwczogSW50PyA9IG51bGwKKQoKZW51bSBjbGFzcyBTdHJlYW1Qcm9maWxlIHsgTUFJTiwgU1VCLCBTTkFQU0hPVCB9CmVudW0gY2xhc3MgVmlkZW9Db2RlYyB7IEgyNjQsIEgyNjUsIE1KUEVHLCBVTktOT1dOIH0KCi8qKiBDb25maWd1cmHDp8OjbyBkbyBhZ2VudGUsIGNvbnRyb2xhZGEgcGVsbyBjbGllbnRlLiAqLwpkYXRhIGNsYXNzIEFnZW50Q29uZmlnKAogICAgdmFsIGFnZW50SWQ6IFN0cmluZywKICAgIHZhbCBjbG91ZFRhcmdldDogQ2xvdWRUYXJnZXQsCiAgICB2YWwgcmVjb3JkaW5nOiBSZWNvcmRpbmdDb25maWcgPSBSZWNvcmRpbmdDb25maWcoKSwKICAgIHZhbCBkZXRlY3Rpb246IERldGVjdGlvbkNvbmZpZyA9IERldGVjdGlvbkNvbmZpZygpLAogICAgdmFsIG5ldHdvcms6IE5ldHdvcmtDb25maWcgPSBOZXR3b3JrQ29uZmlnKCkKKQoKZGF0YSBjbGFzcyBSZWNvcmRpbmdDb25maWcoCiAgICB2YWwgc2VnbWVudER1cmF0aW9uU2Vjb25kczogSW50ID0gMzAwLAogICAgdmFsIHJldGVudGlvbkRheXM6IEludCA9IDMwLAogICAgdmFsIGVuYWJsZWQ6IEJvb2xlYW4gPSB0cnVlLAogICAgdmFsIHByb2ZpbGU6IFN0cmVhbVByb2ZpbGUgPSBTdHJlYW1Qcm9maWxlLk1BSU4KKQoKZGF0YSBjbGFzcyBEZXRlY3Rpb25Db25maWcoCiAgICB2YWwgZW5hYmxlZDogQm9vbGVhbiA9IHRydWUsCiAgICB2YWwgcnVsZXM6IExpc3Q8RGV0ZWN0aW9uUnVsZT4gPSBlbXB0eUxpc3QoKSwKICAgIHZhbCBtb2RlbFBhdGg6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIG1pbkNvbmZpZGVuY2U6IEZsb2F0ID0gMC41ZgopCgpkYXRhIGNsYXNzIE5ldHdvcmtDb25maWcoCiAgICB2YWwgaGVhcnRiZWF0U2Vjb25kczogSW50ID0gNjAsCiAgICB2YWwgd2lmaU9ubHlVcGxvYWQ6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHZhbCBtYXhSZXRyeUF0dGVtcHRzOiBJbnQgPSAxMAopCg==
+package com.seeall.agent.core
+
+/** Identificação de uma câmera descoberta ou cadastrada. */
+data class CameraDevice(
+    val id: String,
+    val name: String,
+    val model: String? = null,
+    val uid: String? = null,
+    val host: String? = null,
+    val port: Int? = null,
+    val transport: Transport,
+    val capabilities: Set<Capability> = emptySet()
+)
+
+enum class Transport { ONVIF, RTSP, P2P_XM_EYE, P2P_TUYA, P2P_TAPO, MANUAL_RTSP }
+
+enum class Capability {
+    LIVE_MAIN, LIVE_SUB, SNAPSHOT, PTZ, AUDIO, TWO_WAY_AUDIO,
+    LOCAL_RECORD, CLOUD_RECORD, ONBOARD_AI, MOTION, PIR, LOW_LIGHT
+}
+
+/** Um fluxo de vídeo disponível na câmera. */
+data class StreamDescriptor(
+    val uri: String,
+    val profile: StreamProfile,
+    val codec: VideoCodec = VideoCodec.H264,
+    val width: Int? = null,
+    val height: Int? = null,
+    val fps: Int? = null
+)
+
+enum class StreamProfile { MAIN, SUB, SNAPSHOT }
+enum class VideoCodec { H264, H265, MJPEG, UNKNOWN }
+
+/** Configuração do agente, controlada pelo cliente. */
+data class AgentConfig(
+    val agentId: String,
+    val cloudTarget: CloudTarget,
+    val recording: RecordingConfig = RecordingConfig(),
+    val detection: DetectionConfig = DetectionConfig(),
+    val network: NetworkConfig = NetworkConfig()
+)
+
+data class RecordingConfig(
+    val segmentDurationSeconds: Int = 300,
+    val retentionDays: Int = 30,
+    val enabled: Boolean = true,
+    val profile: StreamProfile = StreamProfile.MAIN
+)
+
+data class DetectionConfig(
+    val enabled: Boolean = true,
+    val rules: List<DetectionRule> = emptyList(),
+    val modelPath: String? = null,
+    val minConfidence: Float = 0.5f
+)
+
+data class NetworkConfig(
+    val heartbeatSeconds: Int = 60,
+    val wifiOnlyUpload: Boolean = false,
+    val maxRetryAttempts: Int = 10
+)
