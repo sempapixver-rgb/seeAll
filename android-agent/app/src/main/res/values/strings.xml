@@ -1,1 +1,13 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlcz4KICAgIDxzdHJpbmcgbmFtZT0iYXBwX25hbWUiPnNlZUFsbCBBZ2VudDwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJkaXNjb3ZlciI+RGlzY292ZXIgY2FtZXJhczwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJhZGRfbWFudWFsIj5BZGQgUlRTUCBjYW1lcmE8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ibm9fY2FtZXJhcyI+Tm8gY2FtZXJhcyBmb3VuZC4gVHVybiBvbiB0aGUgY2FtZXJhIGFuZCB0YXAgRGlzY292ZXIuPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InVzZXJuYW1lIj5Vc2VybmFtZTwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJwYXNzd29yZCI+UGFzc3dvcmQ8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0iY29ubmVjdCI+Q29ubmVjdDwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJjYW5jZWwiPkNhbmNlbDwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJzdGF0dXNfaWRsZSI+U3RhdHVzOiBpZGxlPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9ImxpdmUiPkxpdmUgdmlkZW88L3N0cmluZz4KPC9yZXNvdXJjZXM+Cg==
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">seeAll Agent</string>
+    <string name="discover">Discover cameras</string>
+    <string name="add_manual">Add RTSP camera</string>
+    <string name="no_cameras">No cameras found. Turn on the camera and tap Discover.</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="connect">Connect</string>
+    <string name="cancel">Cancel</string>
+    <string name="status_idle">Status: idle</string>
+    <string name="live">Live video</string>
+</resources>
