@@ -1,1 +1,63 @@
-bmFtZTogQnVpbGQgc2VlQWxsIEFnZW50IEFQSwoKb246CiAgd29ya2Zsb3dfZGlzcGF0Y2g6CiAgcHVzaDoKICAgIHBhdGhzOgogICAgICAtICdhbmRyb2lkLWFnZW50LyoqJwogICAgICAtICcuZ2l0aHViL3dvcmtmbG93cy9idWlsZC1hcGsueW1sJwoKcGVybWlzc2lvbnM6CiAgY29udGVudHM6IHdyaXRlCgpqb2JzOgogIGJ1aWxkOgogICAgcnVucy1vbjogdWJ1bnR1LWxhdGVzdAogICAgc3RlcHM6CiAgICAgIC0gbmFtZTogQ2hlY2tvdXQKICAgICAgICB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QHY0CgogICAgICAtIG5hbWU6IFNldCB1cCBKREsgMTcKICAgICAgICB1c2VzOiBhY3Rpb25zL3NldHVwLWphdmFAdjQKICAgICAgICB3aXRoOgogICAgICAgICAgZGlzdHJpYnV0aW9uOiB0ZW11cmluCiAgICAgICAgICBqYXZhLXZlcnNpb246ICcxNycKCiAgICAgIC0gbmFtZTogU2V0IHVwIEFuZHJvaWQgU0RLCiAgICAgICAgdXNlczogYW5kcm9pZC1hY3Rpb25zL3NldHVwLWFuZHJvaWRAdjMKCiAgICAgIC0gbmFtZTogU2V0IHVwIEdyYWRsZQogICAgICAgIHVzZXM6IGdyYWRsZS9hY3Rpb25zL3NldHVwLWdyYWRsZUB2NAogICAgICAgIHdpdGg6CiAgICAgICAgICBncmFkbGUtdmVyc2lvbjogJzguOScKCiAgICAgIC0gbmFtZTogQnVpbGQgZGVidWcgQVBLCiAgICAgICAgd29ya2luZy1kaXJlY3Rvcnk6IGFuZHJvaWQtYWdlbnQKICAgICAgICBydW46IGdyYWRsZSBhc3NlbWJsZURlYnVnIC0tc3RhY2t0cmFjZQoKICAgICAgLSBuYW1lOiBVcGxvYWQgQVBLIGFydGlmYWN0CiAgICAgICAgdXNlczogYWN0aW9ucy91cGxvYWQtYXJ0aWZhY3RAdjQKICAgICAgICB3aXRoOgogICAgICAgICAgbmFtZTogc2VlYWxsLWFnZW50LWFwawogICAgICAgICAgcGF0aDogYW5kcm9pZC1hZ2VudC9hcHAvYnVpbGQvb3V0cHV0cy9hcGsvZGVidWcvKi5hcGsKICAgICAgICAgIGlmLW5vLWZpbGVzLWZvdW5kOiBlcnJvcgoKICAgICAgLSBuYW1lOiBHZXQgdmVyc2lvbgogICAgICAgIGlkOiB2ZXIKICAgICAgICBydW46IGVjaG8gInRhZz1hZ2VudC0kKGRhdGUgKyVZJW0lZC0lSCVNKSIgPj4gJEdJVEhVQl9PVVRQVVQKCiAgICAgIC0gbmFtZTogUHVibGlzaCByZWxlYXNlIHdpdGggQVBLCiAgICAgICAgdXNlczogc29mdHByb3BzL2FjdGlvbi1naC1yZWxlYXNlQHYyCiAgICAgICAgd2l0aDoKICAgICAgICAgIHRhZ19uYW1lOiAke3sgc3RlcHMudmVyLm91dHB1dHMudGFnIH19CiAgICAgICAgICBuYW1lOiBzZWVBbGwgQWdlbnQgKHRlc3QpCiAgICAgICAgICBib2R5OiB8CiAgICAgICAgICAgIEFwcCBkZSB0ZXN0ZSBwYXJhIGRlc2NvYnJpciBlIGFkaWNpb25hciBjw6JtZXJhcy4KICAgICAgICAgICAgLSBEZXNjb2JlcnRhIE9OVklGIG5hIExBTgogICAgICAgICAgICAtIEFkaWNpb25hciBjw6JtZXJhIHBvciBSVFNQCiAgICAgICAgICAgIC0gVmlzdWFsaXphw6fDo28gYW8gdml2byAoSC4yNjQpCiAgICAgICAgICAgIEJhaXhlIG8gQVBLIGUgaW5zdGFsZSB2aWEgRG93bmxvYWRlci9zaWRlbG9hZC4KICAgICAgICAgIGZpbGVzOiBhbmRyb2lkLWFnZW50L2FwcC9idWlsZC9vdXRwdXRzL2Fway9kZWJ1Zy8qLmFwawogICAgICAgICAgcHJlcmVsZWFzZTogdHJ1ZQogICAgICAgIGVudjoKICAgICAgICAgIEdJVEhVQl9UT0tFTjogJHt7IHNlY3JldHMuR0lUSFVCX1RPS0VOIH19Cg==
+name: Build seeAll Agent APK
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'android-agent/**'
+      - '.github/workflows/build-apk.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
+      - name: Build debug APK
+        working-directory: android-agent
+        run: gradle assembleDebug --stacktrace
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: seeall-agent-apk
+          path: android-agent/app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
+
+      - name: Get version
+        id: ver
+        run: echo "tag=agent-$(date +%Y%m%d-%H%M)" >> $GITHUB_OUTPUT
+
+      - name: Publish release with APK
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.ver.outputs.tag }}
+          name: seeAll Agent (test)
+          body: |
+            App de teste para descobrir e adicionar câmeras.
+            - Descoberta ONVIF na LAN
+            - Adicionar câmera por RTSP
+            - Visualização ao vivo (H.264)
+            Baixe o APK e instale via Downloader/sideload.
+          files: android-agent/app/build/outputs/apk/debug/*.apk
+          prerelease: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
