@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Endpoint (https://...)" android:textSize="12sp" />
+        <EditText android:id="@+id/endpointInput" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="https://s3.amazonaws.com"
+            android:inputType="textUri" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Bucket" android:textSize="12sp" />
+        <EditText android:id="@+id/bucketInput" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="meu-bucket" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Região" android:textSize="12sp" />
+        <EditText android:id="@+id/regionInput" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="us-east-1" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Access key" android:textSize="12sp" />
+        <EditText android:id="@+id/accessInput" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Access key" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Secret key" android:textSize="12sp" />
+        <EditText android:id="@+id/secretInput" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Secret key"
+            android:inputType="textPassword" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Prefixo" android:textSize="12sp" />
+        <EditText android:id="@+id/prefixInput" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="seeall/" />
+    </LinearLayout>
+</ScrollView>
