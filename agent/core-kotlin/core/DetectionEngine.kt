@@ -1,1 +1,68 @@
-cGFja2FnZSBjb20uc2VlYWxsLmFnZW50LmNvcmUKCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5GbG93CgovKiogRGV0ZWPDp8OjbyBsb2NhbCBlIGFwbGljYcOnw6NvIGRlIHJlZ3JhcyBjb25maWd1csOhdmVpcy4gKi8KaW50ZXJmYWNlIERldGVjdGlvbkVuZ2luZSB7CiAgICB2YWwgZXZlbnRzOiBGbG93PERldGVjdGlvbkV2ZW50PgoKICAgIHN1c3BlbmQgZnVuIGluaXRpYWxpemUoY29uZmlnOiBEZXRlY3Rpb25Db25maWcpOiBSZXN1bHQ8VW5pdD4KICAgIHN1c3BlbmQgZnVuIGFuYWx5emUoZnJhbWU6IFZpZGVvRnJhbWUsIGNhbWVyYTogQ2FtZXJhRGV2aWNlKTogTGlzdDxEZXRlY3Rpb25FdmVudD4KICAgIHN1c3BlbmQgZnVuIHJlbGVhc2UoKQp9CgpkYXRhIGNsYXNzIERldGVjdGlvbkV2ZW50KAogICAgdmFsIGlkOiBTdHJpbmcsCiAgICB2YWwgY2FtZXJhSWQ6IFN0cmluZywKICAgIHZhbCB0eXBlOiBEZXRlY3Rpb25UeXBlLAogICAgdmFsIHRpbWVzdGFtcE1zOiBMb25nLAogICAgdmFsIGNvbmZpZGVuY2U6IEZsb2F0LAogICAgdmFsIGJvdW5kaW5nQm94OiBCb3VuZGluZ0JveD8gPSBudWxsLAogICAgdmFsIHJ1bGVJZDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgdGh1bWJuYWlsUGF0aDogU3RyaW5nPyA9IG51bGwKKQoKZW51bSBjbGFzcyBEZXRlY3Rpb25UeXBlIHsKICAgIFBFUlNPTiwgVkVISUNMRSwgRkFDRSwgTU9USU9OLCBQSVIsCiAgICBMSU5FX0NST1NTSU5HLCBQRVJJTUVURVIsIEFCQU5ET05FRF9PQkpFQ1QsIFJFTU9WRURfT0JKRUNULAogICAgTk9fUEFSS0lORywgQ0FNRVJBX1RBTVBFUiwgTE9XX0xJR0hULCBTT1VORAp9CgpkYXRhIGNsYXNzIEJvdW5kaW5nQm94KHZhbCB4OiBGbG9hdCwgdmFsIHk6IEZsb2F0LCB2YWwgd2lkdGg6IEZsb2F0LCB2YWwgaGVpZ2h0OiBGbG9hdCkKCnNlYWxlZCBjbGFzcyBEZXRlY3Rpb25SdWxlIHsKICAgIGFic3RyYWN0IHZhbCBpZDogU3RyaW5nCiAgICBhYnN0cmFjdCB2YWwgZW5hYmxlZDogQm9vbGVhbgoKICAgIGRhdGEgY2xhc3MgTGluZSgKICAgICAgICBvdmVycmlkZSB2YWwgaWQ6IFN0cmluZywKICAgICAgICBvdmVycmlkZSB2YWwgZW5hYmxlZDogQm9vbGVhbiA9IHRydWUsCiAgICAgICAgdmFsIHN0YXJ0OiBQb2ludEYsCiAgICAgICAgdmFsIGVuZDogUG9pbnRGLAogICAgICAgIHZhbCBkaXJlY3Rpb246IERpcmVjdGlvbiA9IERpcmVjdGlvbi5CT1RILAogICAgICAgIHZhbCBtaW5Db25maWRlbmNlOiBGbG9hdCA9IDAuNWYsCiAgICAgICAgdmFsIGNvb2xkb3duU2Vjb25kczogSW50ID0gMzAKICAgICkgOiBEZXRlY3Rpb25SdWxlKCkKCiAgICBkYXRhIGNsYXNzIFBlcmltZXRlcigKICAgICAgICBvdmVycmlkZSB2YWwgaWQ6IFN0cmluZywKICAgICAgICBvdmVycmlkZSB2YWwgZW5hYmxlZDogQm9vbGVhbiA9IHRydWUsCiAgICAgICAgdmFsIHBvbHlnb246IExpc3Q8UG9pbnRGPiwKICAgICAgICB2YWwgbWluQ29uZmlkZW5jZTogRmxvYXQgPSAwLjVmLAogICAgICAgIHZhbCBjb29sZG93blNlY29uZHM6IEludCA9IDMwCiAgICApIDogRGV0ZWN0aW9uUnVsZSgpCgogICAgZGF0YSBjbGFzcyBPYmplY3RSdWxlKAogICAgICAgIG92ZXJyaWRlIHZhbCBpZDogU3RyaW5nLAogICAgICAgIG92ZXJyaWRlIHZhbCBlbmFibGVkOiBCb29sZWFuID0gdHJ1ZSwKICAgICAgICB2YWwga2luZDogS2luZCwKICAgICAgICB2YWwgem9uZTogTGlzdDxQb2ludEY+PyA9IG51bGwsCiAgICAgICAgdmFsIG1pbkNvbmZpZGVuY2U6IEZsb2F0ID0gMC41ZiwKICAgICAgICB2YWwgZHdlbGxTZWNvbmRzOiBJbnQgPSAxMAogICAgKSA6IERldGVjdGlvblJ1bGUoKSB7CiAgICAgICAgZW51bSBjbGFzcyBLaW5kIHsgQUJBTkRPTkVELCBSRU1PVkVELCBOT19QQVJLSU5HIH0KICAgIH0KfQoKZGF0YSBjbGFzcyBQb2ludEYodmFsIHg6IEZsb2F0LCB2YWwgeTogRmxvYXQpCmVudW0gY2xhc3MgRGlyZWN0aW9uIHsgQV9UT19CLCBCX1RPX0EsIEJPVEggfQo=
+package com.seeall.agent.core
+
+import kotlinx.coroutines.flow.Flow
+
+/** Detecção local e aplicação de regras configuráveis. */
+interface DetectionEngine {
+    val events: Flow<DetectionEvent>
+
+    suspend fun initialize(config: DetectionConfig): Result<Unit>
+    suspend fun analyze(frame: VideoFrame, camera: CameraDevice): List<DetectionEvent>
+    suspend fun release()
+}
+
+data class DetectionEvent(
+    val id: String,
+    val cameraId: String,
+    val type: DetectionType,
+    val timestampMs: Long,
+    val confidence: Float,
+    val boundingBox: BoundingBox? = null,
+    val ruleId: String? = null,
+    val thumbnailPath: String? = null
+)
+
+enum class DetectionType {
+    PERSON, VEHICLE, FACE, MOTION, PIR,
+    LINE_CROSSING, PERIMETER, ABANDONED_OBJECT, REMOVED_OBJECT,
+    NO_PARKING, CAMERA_TAMPER, LOW_LIGHT, SOUND
+}
+
+data class BoundingBox(val x: Float, val y: Float, val width: Float, val height: Float)
+
+sealed class DetectionRule {
+    abstract val id: String
+    abstract val enabled: Boolean
+
+    data class Line(
+        override val id: String,
+        override val enabled: Boolean = true,
+        val start: PointF,
+        val end: PointF,
+        val direction: Direction = Direction.BOTH,
+        val minConfidence: Float = 0.5f,
+        val cooldownSeconds: Int = 30
+    ) : DetectionRule()
+
+    data class Perimeter(
+        override val id: String,
+        override val enabled: Boolean = true,
+        val polygon: List<PointF>,
+        val minConfidence: Float = 0.5f,
+        val cooldownSeconds: Int = 30
+    ) : DetectionRule()
+
+    data class ObjectRule(
+        override val id: String,
+        override val enabled: Boolean = true,
+        val kind: Kind,
+        val zone: List<PointF>? = null,
+        val minConfidence: Float = 0.5f,
+        val dwellSeconds: Int = 10
+    ) : DetectionRule() {
+        enum class Kind { ABANDONED, REMOVED, NO_PARKING }
+    }
+}
+
+data class PointF(val x: Float, val y: Float)
+enum class Direction { A_TO_B, B_TO_A, BOTH }
