@@ -1,1 +1,72 @@
-cGFja2FnZSBjb20uc2VlYWxsLmFnZW50LmNhbWVyYQoKaW1wb3J0IGphdmEuaW8uQnl0ZUFycmF5SW5wdXRTdHJlYW0KaW1wb3J0IGphdmF4LnhtbC5wYXJzZXJzLkRvY3VtZW50QnVpbGRlckZhY3RvcnkKaW1wb3J0IG9yZy53M2MuZG9tLkVsZW1lbnQKaW1wb3J0IG9yZy53M2MuZG9tLk5vZGUKCnByaXZhdGUgdmFsIFhNTF9GQUNUT1JZID0gRG9jdW1lbnRCdWlsZGVyRmFjdG9yeS5uZXdJbnN0YW5jZSgpLmFwcGx5IHsKICAgIGlzTmFtZXNwYWNlQXdhcmUgPSB0cnVlCiAgICBzZXRGZWF0dXJlKCJodHRwOi8vYXBhY2hlLm9yZy94bWwvZmVhdHVyZXMvZGlzYWxsb3ctZG9jdHlwZS1kZWNsIiwgdHJ1ZSkKICAgIHNldEZlYXR1cmUoImh0dHA6Ly94bWwub3JnL3NheC9mZWF0dXJlcy9leHRlcm5hbC1nZW5lcmFsLWVudGl0aWVzIiwgZmFsc2UpCiAgICBzZXRGZWF0dXJlKCJodHRwOi8veG1sLm9yZy9zYXgvZmVhdHVyZXMvZXh0ZXJuYWwtcGFyYW1ldGVyLWVudGl0aWVzIiwgZmFsc2UpCn0KCmludGVybmFsIGZ1biBwYXJzZVhtbCh4bWw6IFN0cmluZyk6IEVsZW1lbnQgPQogICAgWE1MX0ZBQ1RPUlkubmV3RG9jdW1lbnRCdWlsZGVyKCkucGFyc2UoQnl0ZUFycmF5SW5wdXRTdHJlYW0oeG1sLnRvQnl0ZUFycmF5KENoYXJzZXRzLlVURl84KSkpLmRvY3VtZW50RWxlbWVudAoKaW50ZXJuYWwgZnVuIEVsZW1lbnQuY2hpbGRUZXh0KG5hbWU6IFN0cmluZyk6IFN0cmluZz8gPQogICAgZ2V0RWxlbWVudHNCeVRhZ05hbWUobmFtZSkuaXRlbSgwKT8udGV4dENvbnRlbnQ/LnRyaW0oKT8udGFrZUlmIHsgaXQuaXNOb3RFbXB0eSgpIH0KCmludGVybmFsIGZ1biBFbGVtZW50LmRlc2NlbmRhbnRzKGxvY2FsTmFtZTogU3RyaW5nKTogTGlzdDxFbGVtZW50PiB7CiAgICB2YWwgb3V0ID0gbXV0YWJsZUxpc3RPZjxFbGVtZW50PigpCiAgICBmdW4gd2Fsayhub2RlOiBOb2RlKSB7CiAgICAgICAgaWYgKG5vZGUgaXMgRWxlbWVudCAmJiBub2RlLmxvY2FsTmFtZSA9PSBsb2NhbE5hbWUpIG91dCArPSBub2RlCiAgICAgICAgdmFsIGNoaWxkcmVuID0gbm9kZS5jaGlsZE5vZGVzID86IHJldHVybgogICAgICAgIGZvciAoaSBpbiAwIHVudGlsIGNoaWxkcmVuLmxlbmd0aCkgd2FsayhjaGlsZHJlbi5pdGVtKGkpKQogICAgfQogICAgd2Fsayh0aGlzKQogICAgcmV0dXJuIG91dAp9CgppbnRlcm5hbCBmdW4gZXNjYXBlWG1sKHZhbHVlOiBTdHJpbmcpOiBTdHJpbmcgPSBidWlsZFN0cmluZyB7CiAgICBmb3IgKGMgaW4gdmFsdWUpIHdoZW4gKGMpIHsKICAgICAgICAnJicgLT4gYXBwZW5kKCImYW1wOyIpCiAgICAgICAgJzwnIC0+IGFwcGVuZCgiJmx0OyIpCiAgICAgICAgJz4nIC0+IGFwcGVuZCgiJmd0OyIpCiAgICAgICAgJyInIC0+IGFwcGVuZCgiJnF1b3Q7IikKICAgICAgICAnXCcnIC0+IGFwcGVuZCgiJmFwb3M7IikKICAgICAgICBlbHNlIC0+IGFwcGVuZChjKQogICAgfQp9CgppbnRlcm5hbCBmdW4gc29hcEVudmVsb3BlKGJvZHk6IFN0cmluZywgaGVhZGVyOiBTdHJpbmcgPSAiIik6IFN0cmluZyA9IGJ1aWxkU3RyaW5nIHsKICAgIGFwcGVuZCgiIiI8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJVVEYtOCI/PiIiIikKICAgIGFwcGVuZCgiIiI8czpFbnZlbG9wZSB4bWxuczpzPSJodHRwOi8vd3d3LnczLm9yZy8yMDAzLzA1L3NvYXAtZW52ZWxvcGUiICIiIikKICAgIGFwcGVuZCgiIiJ4bWxuczp0ZHM9Imh0dHA6Ly93d3cub252aWYub3JnL3ZlcjEwL2RldmljZS93c2RsIiAiIiIpCiAgICBhcHBlbmQoIiIieG1sbnM6dHJ0PSJodHRwOi8vd3d3Lm9udmlmLm9yZy92ZXIxMC9tZWRpYS93c2RsIiAiIiIpCiAgICBhcHBlbmQoIiIieG1sbnM6dHQ9Imh0dHA6Ly93d3cub252aWYub3JnL3ZlcjEwL3NjaGVtYSI+IiIiKQogICAgaWYgKGhlYWRlci5pc05vdEVtcHR5KCkpIGFwcGVuZCgiPHM6SGVhZGVyPiRoZWFkZXI8L3M6SGVhZGVyPiIpCiAgICBhcHBlbmQoIjxzOkJvZHk+JGJvZHk8L3M6Qm9keT48L3M6RW52ZWxvcGU+IikKfQoKaW50ZXJuYWwgZnVuIHdzc2VVc2VybmFtZVRva2VuKHVzZXI6IFN0cmluZywgcGFzc3dvcmQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICB2YWwgbm9uY2UgPSBCeXRlQXJyYXkoMTYpLmFsc28geyBqYXZhLnNlY3VyaXR5LlNlY3VyZVJhbmRvbSgpLm5leHRCeXRlcyhpdCkgfQogICAgdmFsIG5vbmNlQjY0ID0gamF2YS51dGlsLkJhc2U2NC5nZXRFbmNvZGVyKCkuZW5jb2RlVG9TdHJpbmcobm9uY2UpCiAgICB2YWwgY3JlYXRlZCA9IGphdmEudGltZS5JbnN0YW50Lm5vdygpLnRvU3RyaW5nKCkKICAgIC8vIFBhc3N3b3JkRGlnZXN0ID0gQmFzZTY0KFNIQTEoTm9uY2VCeXRlcyArIENyZWF0ZWRVdGY4ICsgUGFzc3dvcmRVdGY4KSkKICAgIHZhbCBkaWdlc3RJbnB1dCA9IG5vbmNlICsgY3JlYXRlZC50b0J5dGVBcnJheShDaGFyc2V0cy5VVEZfOCkgKyBwYXNzd29yZC50b0J5dGVBcnJheShDaGFyc2V0cy5VVEZfOCkKICAgIHZhbCBkaWdlc3RCNjQgPSBqYXZhLnV0aWwuQmFzZTY0LmdldEVuY29kZXIoKS5lbmNvZGVUb1N0cmluZygKICAgICAgICBqYXZhLnNlY3VyaXR5Lk1lc3NhZ2VEaWdlc3QuZ2V0SW5zdGFuY2UoIlNIQS0xIikuZGlnZXN0KGRpZ2VzdElucHV0KQogICAgKQogICAgcmV0dXJuICIiIgogICAgICAgIDxzOlNlY3VyaXR5IHM6bXVzdFVuZGVyc3RhbmQ9IjEiPgogICAgICAgICAgPHdzc2U6VXNlcm5hbWVUb2tlbiB4bWxuczp3c3NlPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktc2VjZXh0LTEuMC54c2QiPgogICAgICAgICAgICA8d3NzZTpVc2VybmFtZT4ke2VzY2FwZVhtbCh1c2VyKX08L3dzc2U6VXNlcm5hbWU+CiAgICAgICAgICAgIDx3c3NlOlBhc3N3b3JkIFR5cGU9Imh0dHA6Ly9kb2NzLm9hc2lzLW9wZW4ub3JnL3dzcy8yMDA0LzAxL29hc2lzLTIwMDQwMS13c3MtdXNlcm5hbWUtdG9rZW4tcHJvZmlsZS0xLjAjUGFzc3dvcmREaWdlc3QiPiRkaWdlc3RCNjQ8L3dzc2U6UGFzc3dvcmQ+CiAgICAgICAgICAgIDx3c3NlOk5vbmNlIEVuY29kaW5nVHlwZT0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3NzLzIwMDQvMDEvb2FzaXMtMjAwNDAxLXdzcy1zb2FwLW1lc3NhZ2Utc2VjdXJpdHktMS4wI0Jhc2U2NEJpbmFyeSI+JG5vbmNlQjY0PC93c3NlOk5vbmNlPgogICAgICAgICAgICA8d3N1OkNyZWF0ZWQgeG1sbnM6d3N1PSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIj4kY3JlYXRlZDwvd3N1OkNyZWF0ZWQ+CiAgICAgICAgICA8L3dzc2U6VXNlcm5hbWVUb2tlbj4KICAgICAgICA8L3M6U2VjdXJpdHk+CiAgICAiIiIudHJpbUluZGVudCgpCn0K
+package com.seeall.agent.camera
+
+import java.io.ByteArrayInputStream
+import javax.xml.parsers.DocumentBuilderFactory
+import org.w3c.dom.Element
+import org.w3c.dom.Node
+
+private val XML_FACTORY = DocumentBuilderFactory.newInstance().apply {
+    isNamespaceAware = true
+    setFeature("http://apache.org/xml/features/disallow-doctype-decl", true)
+    setFeature("http://xml.org/sax/features/external-general-entities", false)
+    setFeature("http://xml.org/sax/features/external-parameter-entities", false)
+}
+
+internal fun parseXml(xml: String): Element =
+    XML_FACTORY.newDocumentBuilder().parse(ByteArrayInputStream(xml.toByteArray(Charsets.UTF_8))).documentElement
+
+internal fun Element.childText(name: String): String? =
+    getElementsByTagName(name).item(0)?.textContent?.trim()?.takeIf { it.isNotEmpty() }
+
+internal fun Element.descendants(localName: String): List<Element> {
+    val out = mutableListOf<Element>()
+    fun walk(node: Node) {
+        if (node is Element && node.localName == localName) out += node
+        val children = node.childNodes ?: return
+        for (i in 0 until children.length) walk(children.item(i))
+    }
+    walk(this)
+    return out
+}
+
+internal fun escapeXml(value: String): String = buildString {
+    for (c in value) when (c) {
+        '&' -> append("&amp;")
+        '<' -> append("&lt;")
+        '>' -> append("&gt;")
+        '"' -> append("&quot;")
+        '\'' -> append("&apos;")
+        else -> append(c)
+    }
+}
+
+internal fun soapEnvelope(body: String, header: String = ""): String = buildString {
+    append("""<?xml version="1.0" encoding="UTF-8"?>""")
+    append("""<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" """)
+    append("""xmlns:tds="http://www.onvif.org/ver10/device/wsdl" """)
+    append("""xmlns:trt="http://www.onvif.org/ver10/media/wsdl" """)
+    append("""xmlns:tt="http://www.onvif.org/ver10/schema">""")
+    if (header.isNotEmpty()) append("<s:Header>$header</s:Header>")
+    append("<s:Body>$body</s:Body></s:Envelope>")
+}
+
+internal fun wsseUsernameToken(user: String, password: String): String {
+    val nonce = ByteArray(16).also { java.security.SecureRandom().nextBytes(it) }
+    val nonceB64 = java.util.Base64.getEncoder().encodeToString(nonce)
+    val created = java.time.Instant.now().toString()
+    // PasswordDigest = Base64(SHA1(NonceBytes + CreatedUtf8 + PasswordUtf8))
+    val digestInput = nonce + created.toByteArray(Charsets.UTF_8) + password.toByteArray(Charsets.UTF_8)
+    val digestB64 = java.util.Base64.getEncoder().encodeToString(
+        java.security.MessageDigest.getInstance("SHA-1").digest(digestInput)
+    )
+    return """
+        <s:Security s:mustUnderstand="1">
+          <wsse:UsernameToken xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+            <wsse:Username>${escapeXml(user)}</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordDigest">$digestB64</wsse:Password>
+            <wsse:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">$nonceB64</wsse:Nonce>
+            <wsu:Created xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">$created</wsu:Created>
+          </wsse:UsernameToken>
+        </s:Security>
+    """.trimIndent()
+}
