@@ -1,1 +1,143 @@
-cGFja2FnZSBjb20uc2VlYWxsLmFnZW50LmNhbWVyYQoKaW1wb3J0IGNvbS5zZWVhbGwuYWdlbnQuY29yZS5DYW1lcmFDb25uZWN0aW9uCmltcG9ydCBjb20uc2VlYWxsLmFnZW50LmNvcmUuQ2FtZXJhRGV2aWNlCmltcG9ydCBjb20uc2VlYWxsLmFnZW50LmNvcmUuQ29ubmVjdGlvblN0YXRlCmltcG9ydCBjb20uc2VlYWxsLmFnZW50LmNvcmUuTGl2ZVNlc3Npb24KaW1wb3J0IGNvbS5zZWVhbGwuYWdlbnQuY29yZS5TZXNzaW9uRXZlbnQKaW1wb3J0IGNvbS5zZWVhbGwuYWdlbnQuY29yZS5TdHJlYW1EZXNjcmlwdG9yCmltcG9ydCBjb20uc2VlYWxsLmFnZW50LmNvcmUuU3RyZWFtUHJvZmlsZQppbXBvcnQgY29tLnNlZWFsbC5hZ2VudC5jb3JlLlZpZGVvQ29kZWMKaW1wb3J0IGNvbS5zZWVhbGwuYWdlbnQuY29yZS5WaWRlb0ZyYW1lCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLlN1cGVydmlzb3JKb2IKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5jYW5jZWwKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5jaGFubmVscy5CdWZmZXJPdmVyZmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVNoYXJlZEZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmFzU2hhcmVkRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAoKLyoqIENhbWVyYUNvbm5lY3Rpb24gYmFzZWFkbyBlbSBPTlZJRiArIFJUU1AuICovCmNsYXNzIE9udmlmQ2FtZXJhQ29ubmVjdGlvbigKICAgIG92ZXJyaWRlIHZhbCBkZXZpY2U6IENhbWVyYURldmljZSwKICAgIHByaXZhdGUgdmFsIHhhZGRyOiBTdHJpbmcsCiAgICBwcml2YXRlIHZhbCB1c2VybmFtZTogU3RyaW5nPyA9IG51bGwsCiAgICBwcml2YXRlIHZhbCBwYXNzd29yZDogU3RyaW5nPyA9IG51bGwKKSA6IENhbWVyYUNvbm5lY3Rpb24gewoKICAgIHByaXZhdGUgdmFsIHNjb3BlID0gQ29yb3V0aW5lU2NvcGUoU3VwZXJ2aXNvckpvYigpICsgRGlzcGF0Y2hlcnMuSU8pCiAgICBwcml2YXRlIHZhbCBfc3RhdGUgPSBNdXRhYmxlU2hhcmVkRmxvdzxDb25uZWN0aW9uU3RhdGU+KDEsIG9uQnVmZmVyT3ZlcmZsb3cgPSBCdWZmZXJPdmVyZmxvdy5EUk9QX09MREVTVCkKICAgIG92ZXJyaWRlIHZhbCBzdGF0ZTogRmxvdzxDb25uZWN0aW9uU3RhdGU+ID0gX3N0YXRlLmFzU2hhcmVkRmxvdygpCgogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgY2xpZW50OiBPbnZpZkNsaWVudAogICAgcHJpdmF0ZSB2YXIgcHJvZmlsZXM6IExpc3Q8T252aWZDbGllbnQuUHJvZmlsZT4gPSBlbXB0eUxpc3QoKQogICAgcHJpdmF0ZSB2YXIgc3RyZWFtczogTGlzdDxTdHJlYW1EZXNjcmlwdG9yPiA9IGVtcHR5TGlzdCgpCgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gY29ubmVjdCgpOiBSZXN1bHQ8VW5pdD4gPSBydW5DYXRjaGluZyB7CiAgICAgICAgX3N0YXRlLmVtaXQoQ29ubmVjdGlvblN0YXRlLkNPTk5FQ1RJTkcpCiAgICAgICAgY2xpZW50ID0gT252aWZDbGllbnQoeGFkZHIsIHVzZXJuYW1lLCBwYXNzd29yZCkKICAgICAgICBwcm9maWxlcyA9IGNsaWVudC5nZXRQcm9maWxlcygpCgogICAgICAgIHN0cmVhbXMgPSBwcm9maWxlcy5tYXBOb3ROdWxsIHsgcHJvZmlsZSAtPgogICAgICAgICAgICB2YWwgdXJpID0gcnVuQ2F0Y2hpbmcgeyBjbGllbnQuZ2V0U3RyZWFtVXJpKHByb2ZpbGUudG9rZW4pLnVyaSB9LmdldE9yTnVsbCgpID86IHJldHVybkBtYXBOb3ROdWxsIG51bGwKICAgICAgICAgICAgdmFsIHByb2ZpbGVLaW5kID0gd2hlbiB7CiAgICAgICAgICAgICAgICBwcm9maWxlLm5hbWU/LmNvbnRhaW5zKCJzdWIiLCB0cnVlKSA9PSB0cnVlIC0+IFN0cmVhbVByb2ZpbGUuU1VCCiAgICAgICAgICAgICAgICBwcm9maWxlLm5hbWU/LmNvbnRhaW5zKCJtYWluIiwgdHJ1ZSkgPT0gdHJ1ZSAtPiBTdHJlYW1Qcm9maWxlLk1BSU4KICAgICAgICAgICAgICAgIGVsc2UgLT4gaWYgKHN0cmVhbXMuaXNFbXB0eSgpKSBTdHJlYW1Qcm9maWxlLk1BSU4gZWxzZSBTdHJlYW1Qcm9maWxlLlNVQgogICAgICAgICAgICB9CiAgICAgICAgICAgIFN0cmVhbURlc2NyaXB0b3IoCiAgICAgICAgICAgICAgICB1cmkgPSB1cmksCiAgICAgICAgICAgICAgICBwcm9maWxlID0gcHJvZmlsZUtpbmQsCiAgICAgICAgICAgICAgICBjb2RlYyA9IGlmIChwcm9maWxlLmVuY29kaW5nPy5jb250YWlucygiSDI2NSIsIHRydWUpID09IHRydWUpIFZpZGVvQ29kZWMuSDI2NSBlbHNlIFZpZGVvQ29kZWMuSDI2NAogICAgICAgICAgICApCiAgICAgICAgfQogICAgICAgIGNoZWNrKHN0cmVhbXMuaXNOb3RFbXB0eSgpKSB7ICJOZW5odW0gc3RyZWFtIFJUU1Agb2J0aWRvIHZpYSBPTlZJRiIgfQogICAgICAgIF9zdGF0ZS5lbWl0KENvbm5lY3Rpb25TdGF0ZS5DT05ORUNURUQpCiAgICB9Lm9uRmFpbHVyZSB7CiAgICAgICAgX3N0YXRlLmVtaXQoQ29ubmVjdGlvblN0YXRlLkVSUk9SKQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGRpc2Nvbm5lY3QoKSB7CiAgICAgICAgX3N0YXRlLmVtaXQoQ29ubmVjdGlvblN0YXRlLkRJU0NPTk5FQ1RFRCkKICAgICAgICBzY29wZS5jYW5jZWwoKQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHN0cmVhbXMoKTogUmVzdWx0PExpc3Q8U3RyZWFtRGVzY3JpcHRvcj4+ID0KICAgICAgICBpZiAoOjpjbGllbnQuaXNJbml0aWFsaXplZCkgUmVzdWx0LnN1Y2Nlc3Moc3RyZWFtcykKICAgICAgICBlbHNlIFJlc3VsdC5mYWlsdXJlKElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiQ29uZXjDo28gbsOjbyBpbmljaWFsaXphZGEiKSkKCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBzbmFwc2hvdCgpOiBSZXN1bHQ8Qnl0ZUFycmF5PiA9IHJ1bkNhdGNoaW5nIHsKICAgICAgICB2YWwgdG9rZW4gPSBwcm9maWxlcy5maXJzdE9yTnVsbCgpPy50b2tlbiA/OiBlcnJvcigiU2VtIHByb2ZpbGUgT05WSUYiKQogICAgICAgIHZhbCB1cmwgPSBjbGllbnQuZ2V0U25hcHNob3RVcmkodG9rZW4pID86IGVycm9yKCJTZW0gU25hcHNob3RVcmkiKQogICAgICAgIHZhbCByZXF1ZXN0ID0gb2todHRwMy5SZXF1ZXN0LkJ1aWxkZXIoKS51cmwodXJsKS5idWlsZCgpCiAgICAgICAgb2todHRwMy5Pa0h0dHBDbGllbnQoKS5uZXdDYWxsKHJlcXVlc3QpLmV4ZWN1dGUoKS51c2UgeyByZXNwb25zZSAtPgogICAgICAgICAgICBjaGVjayhyZXNwb25zZS5pc1N1Y2Nlc3NmdWwpIHsgIlNuYXBzaG90IEhUVFAgJHtyZXNwb25zZS5jb2RlfSIgfQogICAgICAgICAgICByZXNwb25zZS5ib2R5Py5ieXRlcygpID86IGVycm9yKCJTbmFwc2hvdCB2YXppbyIpCiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIG9wZW5MaXZlKGRlc2NyaXB0b3I6IFN0cmVhbURlc2NyaXB0b3IpOiBSZXN1bHQ8TGl2ZVNlc3Npb24+ID0gcnVuQ2F0Y2hpbmcgewogICAgICAgIFJ0c3BMaXZlU2Vzc2lvbihkZXNjcmlwdG9yKQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIG9wZW5SZWNvcmRpbmcoCiAgICAgICAgZGVzY3JpcHRvcjogU3RyZWFtRGVzY3JpcHRvciwKICAgICAgICBmcm9tOiBMb25nLAogICAgICAgIHRvOiBMb25nCiAgICApOiBSZXN1bHQ8TGl2ZVNlc3Npb24+ID0gUmVzdWx0LmZhaWx1cmUoVW5zdXBwb3J0ZWRPcGVyYXRpb25FeGNlcHRpb24oIlVzZSBPTlZJRiBSZWNvcmRpbmcgU2VhcmNoIC8gcGxheWJhY2sgc2VwYXJhZG8iKSkKCiAgICBpbm5lciBjbGFzcyBSdHNwTGl2ZVNlc3Npb24ocHJpdmF0ZSB2YWwgZGVzY3JpcHRvcjogU3RyZWFtRGVzY3JpcHRvcikgOiBMaXZlU2Vzc2lvbiB7CiAgICAgICAgcHJpdmF0ZSB2YWwgX2ZyYW1lcyA9IE11dGFibGVTaGFyZWRGbG93PFZpZGVvRnJhbWU+KAogICAgICAgICAgICBleHRyYUJ1ZmZlckNhcGFjaXR5ID0gNjQsCiAgICAgICAgICAgIG9uQnVmZmVyT3ZlcmZsb3cgPSBCdWZmZXJPdmVyZmxvdy5EUk9QX09MREVTVAogICAgICAgICkKICAgICAgICBwcml2YXRlIHZhbCBfZXZlbnRzID0gTXV0YWJsZVNoYXJlZEZsb3c8U2Vzc2lvbkV2ZW50PigKICAgICAgICAgICAgZXh0cmFCdWZmZXJDYXBhY2l0eSA9IDgsCiAgICAgICAgICAgIG9uQnVmZmVyT3ZlcmZsb3cgPSBCdWZmZXJPdmVyZmxvdy5EUk9QX09MREVTVAogICAgICAgICkKICAgICAgICBvdmVycmlkZSB2YWwgZnJhbWVzOiBGbG93PFZpZGVvRnJhbWU+ID0gX2ZyYW1lcy5hc1NoYXJlZEZsb3coKQogICAgICAgIG92ZXJyaWRlIHZhbCBldmVudHM6IEZsb3c8U2Vzc2lvbkV2ZW50PiA9IF9ldmVudHMuYXNTaGFyZWRGbG93KCkKCiAgICAgICAgcHJpdmF0ZSB2YXIgY2xpZW50UnRzcDogUnRzcENsaWVudD8gPSBudWxsCiAgICAgICAgcHJpdmF0ZSB2YXIgcnVubmluZyA9IGZhbHNlCgogICAgICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHN0YXJ0KCkgewogICAgICAgICAgICBpZiAocnVubmluZykgcmV0dXJuCiAgICAgICAgICAgIHJ1bm5pbmcgPSB0cnVlCiAgICAgICAgICAgIHZhbCBydHNwID0gUnRzcENsaWVudChkZXNjcmlwdG9yLnVyaSwgdXNlcm5hbWUsIHBhc3N3b3JkKQogICAgICAgICAgICBjbGllbnRSdHNwID0gcnRzcAogICAgICAgICAgICBfZXZlbnRzLmVtaXQoU2Vzc2lvbkV2ZW50LkNvbm5lY3RlZChkZXNjcmlwdG9yKSkKCiAgICAgICAgICAgIHJ0c3AuY29ubmVjdEFuZFBsYXkoKS5vbkZhaWx1cmUgeyBlcnJvciAtPgogICAgICAgICAgICAgICAgX2V2ZW50cy5lbWl0KFNlc3Npb25FdmVudC5FcnJvcihlcnJvcikpCiAgICAgICAgICAgICAgICBydW5uaW5nID0gZmFsc2UKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CgogICAgICAgICAgICBzY29wZS5sYXVuY2ggewogICAgICAgICAgICAgICAgcnRzcC5mcmFtZXMuY29sbGVjdCB7IGZyYW1lIC0+CiAgICAgICAgICAgICAgICAgICAgX2ZyYW1lcy50cnlFbWl0KAogICAgICAgICAgICAgICAgICAgICAgICBWaWRlb0ZyYW1lKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGltZXN0YW1wTXMgPSBmcmFtZS50aW1lc3RhbXBNcywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRhdGEgPSBmcmFtZS5uYWx1LAogICAgICAgICAgICAgICAgICAgICAgICAgICAga2V5RnJhbWUgPSBmcmFtZS5rZXlGcmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoID0gZGVzY3JpcHRvci53aWR0aCA/OiAwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0ID0gZGVzY3JpcHRvci5oZWlnaHQgPzogMAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBzdG9wKCkgewogICAgICAgICAgICBydW5uaW5nID0gZmFsc2UKICAgICAgICAgICAgY2xpZW50UnRzcD8uY2xvc2UoKQogICAgICAgICAgICBjbGllbnRSdHNwID0gbnVsbAogICAgICAgICAgICBfZXZlbnRzLmVtaXQoU2Vzc2lvbkV2ZW50LkRpc2Nvbm5lY3RlZCkKICAgICAgICB9CgogICAgICAgIG92ZXJyaWRlIGZ1biBpc1J1bm5pbmcoKTogQm9vbGVhbiA9IHJ1bm5pbmcKICAgIH0KfQo=
+package com.seeall.agent.camera
+
+import com.seeall.agent.core.CameraConnection
+import com.seeall.agent.core.CameraDevice
+import com.seeall.agent.core.ConnectionState
+import com.seeall.agent.core.LiveSession
+import com.seeall.agent.core.SessionEvent
+import com.seeall.agent.core.StreamDescriptor
+import com.seeall.agent.core.StreamProfile
+import com.seeall.agent.core.VideoCodec
+import com.seeall.agent.core.VideoFrame
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.cancel
+import kotlinx.coroutines.channels.BufferOverflow
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.MutableSharedFlow
+import kotlinx.coroutines.flow.asSharedFlow
+import kotlinx.coroutines.launch
+
+/** CameraConnection baseado em ONVIF + RTSP. */
+class OnvifCameraConnection(
+    override val device: CameraDevice,
+    private val xaddr: String,
+    private val username: String? = null,
+    private val password: String? = null
+) : CameraConnection {
+
+    private val scope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+    private val _state = MutableSharedFlow<ConnectionState>(1, onBufferOverflow = BufferOverflow.DROP_OLDEST)
+    override val state: Flow<ConnectionState> = _state.asSharedFlow()
+
+    private lateinit var client: OnvifClient
+    private var profiles: List<OnvifClient.Profile> = emptyList()
+    private var streams: List<StreamDescriptor> = emptyList()
+
+    override suspend fun connect(): Result<Unit> = runCatching {
+        _state.emit(ConnectionState.CONNECTING)
+        client = OnvifClient(xaddr, username, password)
+        profiles = client.getProfiles()
+
+        streams = profiles.mapNotNull { profile ->
+            val uri = runCatching { client.getStreamUri(profile.token).uri }.getOrNull() ?: return@mapNotNull null
+            val profileKind = when {
+                profile.name?.contains("sub", true) == true -> StreamProfile.SUB
+                profile.name?.contains("main", true) == true -> StreamProfile.MAIN
+                else -> if (streams.isEmpty()) StreamProfile.MAIN else StreamProfile.SUB
+            }
+            StreamDescriptor(
+                uri = uri,
+                profile = profileKind,
+                codec = if (profile.encoding?.contains("H265", true) == true) VideoCodec.H265 else VideoCodec.H264
+            )
+        }
+        check(streams.isNotEmpty()) { "Nenhum stream RTSP obtido via ONVIF" }
+        _state.emit(ConnectionState.CONNECTED)
+    }.onFailure {
+        _state.emit(ConnectionState.ERROR)
+    }
+
+    override suspend fun disconnect() {
+        _state.emit(ConnectionState.DISCONNECTED)
+        scope.cancel()
+    }
+
+    override suspend fun streams(): Result<List<StreamDescriptor>> =
+        if (::client.isInitialized) Result.success(streams)
+        else Result.failure(IllegalStateException("Conexão não inicializada"))
+
+    override suspend fun snapshot(): Result<ByteArray> = runCatching {
+        val token = profiles.firstOrNull()?.token ?: error("Sem profile ONVIF")
+        val url = client.getSnapshotUri(token) ?: error("Sem SnapshotUri")
+        val request = okhttp3.Request.Builder().url(url).build()
+        okhttp3.OkHttpClient().newCall(request).execute().use { response ->
+            check(response.isSuccessful) { "Snapshot HTTP ${response.code}" }
+            response.body?.bytes() ?: error("Snapshot vazio")
+        }
+    }
+
+    override suspend fun openLive(descriptor: StreamDescriptor): Result<LiveSession> = runCatching {
+        RtspLiveSession(descriptor)
+    }
+
+    override suspend fun openRecording(
+        descriptor: StreamDescriptor,
+        from: Long,
+        to: Long
+    ): Result<LiveSession> = Result.failure(UnsupportedOperationException("Use ONVIF Recording Search / playback separado"))
+
+    inner class RtspLiveSession(private val descriptor: StreamDescriptor) : LiveSession {
+        private val _frames = MutableSharedFlow<VideoFrame>(
+            extraBufferCapacity = 64,
+            onBufferOverflow = BufferOverflow.DROP_OLDEST
+        )
+        private val _events = MutableSharedFlow<SessionEvent>(
+            extraBufferCapacity = 8,
+            onBufferOverflow = BufferOverflow.DROP_OLDEST
+        )
+        override val frames: Flow<VideoFrame> = _frames.asSharedFlow()
+        override val events: Flow<SessionEvent> = _events.asSharedFlow()
+
+        private var clientRtsp: RtspClient? = null
+        private var running = false
+
+        override suspend fun start() {
+            if (running) return
+            running = true
+            val rtsp = RtspClient(descriptor.uri, username, password)
+            clientRtsp = rtsp
+            _events.emit(SessionEvent.Connected(descriptor))
+
+            rtsp.connectAndPlay().onFailure { error ->
+                _events.emit(SessionEvent.Error(error))
+                running = false
+                return
+            }
+
+            scope.launch {
+                rtsp.frames.collect { frame ->
+                    _frames.tryEmit(
+                        VideoFrame(
+                            timestampMs = frame.timestampMs,
+                            data = frame.nalu,
+                            keyFrame = frame.keyFrame,
+                            width = descriptor.width ?: 0,
+                            height = descriptor.height ?: 0
+                        )
+                    )
+                }
+            }
+        }
+
+        override suspend fun stop() {
+            running = false
+            clientRtsp?.close()
+            clientRtsp = null
+            _events.emit(SessionEvent.Disconnected)
+        }
+
+        override fun isRunning(): Boolean = running
+    }
+}
